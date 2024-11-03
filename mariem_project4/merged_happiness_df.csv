@@ -1,0 +1,1141 @@
+Country,Year,Code,Happiness
+Albania,1998,ALB,33
+Albania,2004,ALB,59
+Albania,2010,ALB,67
+Albania,2014,ALB,59
+Albania,2015,ALB,62
+Albania,2016,ALB,59
+Albania,2022,ALB,74
+Algeria,2004,DZA,81
+Algeria,2014,DZA,76
+Andorra,2010,AND,93
+Andorra,2022,AND,95
+Argentina,1984,ARG,77
+Argentina,1993,ARG,76
+Argentina,1998,ARG,82
+Argentina,2004,ARG,81
+Argentina,2010,ARG,88
+Argentina,2014,ARG,86
+Argentina,2022,ARG,86
+Armenia,1998,ARM,55
+Armenia,2010,ARM,76
+Armenia,2014,ARM,82
+Armenia,2022,ARM,85
+Australia,1984,AUS,95
+Australia,1998,AUS,94
+Australia,2010,AUS,92
+Australia,2014,AUS,93
+Australia,2022,AUS,90
+Austria,1993,AUT,86
+Austria,1996,AUT,93
+Austria,1997,AUT,84
+Austria,1998,AUT,83
+Austria,1999,AUT,84
+Austria,2000,AUT,81
+Austria,2001,AUT,86
+Austria,2002,AUT,83
+Austria,2003,AUT,82
+Austria,2004,AUT,90
+Austria,2005,AUT,85
+Austria,2006,AUT,84
+Austria,2007,AUT,86
+Austria,2008,AUT,80
+Austria,2009,AUT,83
+Austria,2010,AUT,88
+Austria,2011,AUT,84
+Austria,2012,AUT,85
+Austria,2013,AUT,83
+Austria,2014,AUT,90
+Austria,2015,AUT,86
+Austria,2016,AUT,85
+Austria,2022,AUT,89
+Azerbaijan,1998,AZE,77
+Azerbaijan,2014,AZE,81
+Azerbaijan,2022,AZE,80
+Bangladesh,1998,BGD,85
+Bangladesh,2004,BGD,77
+Bangladesh,2022,BGD,91
+Belarus,1993,BLR,44
+Belarus,1998,BLR,45
+Belarus,2004,BLR,62
+Belarus,2010,BLR,76
+Belarus,2014,BLR,64
+Belarus,2022,BLR,89
+Belgium,1973,BEL,92
+Belgium,1975,BEL,89
+Belgium,1976,BEL,90
+Belgium,1977,BEL,90
+Belgium,1978,BEL,89
+Belgium,1979,BEL,90
+Belgium,1980,BEL,89
+Belgium,1981,BEL,84
+Belgium,1982,BEL,82
+Belgium,1983,BEL,82
+Belgium,1984,BEL,88
+Belgium,1985,BEL,82
+Belgium,1986,BEL,78
+Belgium,1987,BEL,83
+Belgium,1988,BEL,79
+Belgium,1989,BEL,86
+Belgium,1990,BEL,88
+Belgium,1991,BEL,89
+Belgium,1992,BEL,89
+Belgium,1993,BEL,90
+Belgium,1994,BEL,86
+Belgium,1996,BEL,86
+Belgium,1997,BEL,78
+Belgium,1998,BEL,79
+Belgium,1999,BEL,83
+Belgium,2000,BEL,83
+Belgium,2001,BEL,85
+Belgium,2002,BEL,82
+Belgium,2003,BEL,83
+Belgium,2004,BEL,92
+Belgium,2005,BEL,89
+Belgium,2006,BEL,91
+Belgium,2007,BEL,89
+Belgium,2008,BEL,87
+Belgium,2009,BEL,90
+Belgium,2010,BEL,94
+Belgium,2011,BEL,89
+Belgium,2012,BEL,89
+Belgium,2013,BEL,92
+Belgium,2014,BEL,91
+Belgium,2015,BEL,89
+Belgium,2016,BEL,92
+Bolivia,2022,BOL,73
+Bosnia and Herzegovina,1998,BIH,75
+Bosnia and Herzegovina,2004,BIH,82
+Bosnia and Herzegovina,2010,BIH,86
+Bosnia and Herzegovina,2022,BIH,87
+Brazil,1993,BRA,75
+Brazil,1998,BRA,83
+Brazil,2010,BRA,90
+Brazil,2014,BRA,92
+Brazil,2022,BRA,89
+Bulgaria,1993,BGR,35
+Bulgaria,1998,BGR,56
+Bulgaria,2004,BGR,45
+Bulgaria,2005,BGR,29
+Bulgaria,2006,BGR,30
+Bulgaria,2007,BGR,37
+Bulgaria,2008,BGR,39
+Bulgaria,2009,BGR,40
+Bulgaria,2010,BGR,58
+Bulgaria,2011,BGR,38
+Bulgaria,2012,BGR,40
+Bulgaria,2013,BGR,34
+Bulgaria,2014,BGR,45
+Bulgaria,2015,BGR,46
+Bulgaria,2016,BGR,48
+Bulgaria,2022,BGR,60
+Burkina Faso,2010,BFA,80
+Canada,1984,CAN,96
+Canada,1993,CAN,78
+Canada,2004,CAN,96
+Canada,2010,CAN,95
+Canada,2022,CAN,85
+Chile,1993,CHL,72
+Chile,1998,CHL,80
+Chile,2004,CHL,80
+Chile,2010,CHL,79
+Chile,2014,CHL,84
+Chile,2022,CHL,83
+China,1993,CHN,67
+China,1998,CHN,84
+China,2004,CHN,78
+China,2010,CHN,77
+China,2014,CHN,84
+China,2022,CHN,89
+Colombia,1998,COL,84
+Colombia,2010,COL,87
+Colombia,2014,COL,92
+Colombia,2022,COL,89
+Croatia,1998,HRV,69
+Croatia,2004,HRV,78
+Croatia,2005,HRV,68
+Croatia,2006,HRV,70
+Croatia,2007,HRV,71
+Croatia,2008,HRV,69
+Croatia,2009,HRV,64
+Croatia,2010,HRV,82
+Croatia,2011,HRV,67
+Croatia,2012,HRV,67
+Croatia,2013,HRV,69
+Croatia,2014,HRV,67
+Croatia,2015,HRV,72
+Croatia,2016,HRV,71
+Croatia,2022,HRV,82
+Cyprus,2004,CYP,89
+Cyprus,2005,CYP,85
+Cyprus,2006,CYP,86
+Cyprus,2007,CYP,86
+Cyprus,2008,CYP,87
+Cyprus,2009,CYP,85
+Cyprus,2010,CYP,86
+Cyprus,2011,CYP,79
+Cyprus,2012,CYP,76
+Cyprus,2013,CYP,68
+Cyprus,2014,CYP,82
+Cyprus,2015,CYP,80
+Cyprus,2016,CYP,81
+Cyprus,2022,CYP,82
+Czechia,1993,CZE,76
+Czechia,1998,CZE,83
+Czechia,2004,CZE,86
+Czechia,2005,CZE,82
+Czechia,2006,CZE,82
+Czechia,2007,CZE,82
+Czechia,2008,CZE,83
+Czechia,2009,CZE,82
+Czechia,2010,CZE,83
+Czechia,2011,CZE,79
+Czechia,2012,CZE,76
+Czechia,2013,CZE,81
+Czechia,2014,CZE,82
+Czechia,2015,CZE,83
+Czechia,2016,CZE,86
+Czechia,2022,CZE,86
+Denmark,1973,DNK,95
+Denmark,1975,DNK,90
+Denmark,1976,DNK,93
+Denmark,1977,DNK,95
+Denmark,1978,DNK,95
+Denmark,1979,DNK,94
+Denmark,1980,DNK,96
+Denmark,1981,DNK,94
+Denmark,1982,DNK,95
+Denmark,1983,DNK,95
+Denmark,1984,DNK,93
+Denmark,1985,DNK,96
+Denmark,1986,DNK,95
+Denmark,1987,DNK,95
+Denmark,1988,DNK,90
+Denmark,1989,DNK,95
+Denmark,1990,DNK,96
+Denmark,1991,DNK,97
+Denmark,1992,DNK,96
+Denmark,1993,DNK,94
+Denmark,1994,DNK,97
+Denmark,1996,DNK,97
+Denmark,1997,DNK,97
+Denmark,1998,DNK,97
+Denmark,1999,DNK,96
+Denmark,2000,DNK,95
+Denmark,2001,DNK,97
+Denmark,2002,DNK,96
+Denmark,2003,DNK,96
+Denmark,2004,DNK,94
+Denmark,2005,DNK,97
+Denmark,2006,DNK,97
+Denmark,2007,DNK,98
+Denmark,2008,DNK,96
+Denmark,2009,DNK,98
+Denmark,2010,DNK,96
+Denmark,2011,DNK,97
+Denmark,2012,DNK,97
+Denmark,2013,DNK,97
+Denmark,2014,DNK,97
+Denmark,2015,DNK,98
+Denmark,2016,DNK,97
+Denmark,2022,DNK,90
+Dominican Republic,1998,DOM,72
+Ecuador,2014,ECU,93
+Ecuador,2022,ECU,88
+Egypt,2004,EGY,89
+Egypt,2010,EGY,83
+Egypt,2014,EGY,26
+Egypt,2022,EGY,72
+El Salvador,1998,SLV,92
+Estonia,1993,EST,57
+Estonia,1998,EST,64
+Estonia,2004,EST,64
+Estonia,2005,EST,69
+Estonia,2006,EST,74
+Estonia,2007,EST,78
+Estonia,2008,EST,75
+Estonia,2009,EST,73
+Estonia,2010,EST,79
+Estonia,2011,EST,70
+Estonia,2012,EST,70
+Estonia,2013,EST,72
+Estonia,2014,EST,77
+Estonia,2015,EST,79
+Estonia,2016,EST,80
+Estonia,2022,EST,84
+Ethiopia,2010,ETH,63
+Ethiopia,2022,ETH,87
+European Union,1973,,79
+European Union,1975,,75
+European Union,1976,,75
+European Union,1977,,77
+European Union,1978,,78
+European Union,1979,,78
+European Union,1980,,79
+European Union,1981,,76
+European Union,1982,,79
+European Union,1983,,77
+European Union,1984,,78
+European Union,1985,,77
+European Union,1986,,78
+European Union,1987,,77
+European Union,1988,,75
+European Union,1989,,82
+European Union,1990,,82
+European Union,1991,,82
+European Union,1992,,80
+European Union,1993,,79
+European Union,1994,,80
+European Union,1996,,83
+European Union,1997,,77
+European Union,1998,,77
+European Union,1999,,82
+European Union,2000,,80
+European Union,2001,,83
+European Union,2002,,81
+European Union,2003,,79
+European Union,2004,,81
+European Union,2005,,80
+European Union,2006,,82
+European Union,2007,,81
+European Union,2008,,77
+European Union,2009,,77
+European Union,2010,,78
+European Union,2011,,77
+European Union,2012,,76
+European Union,2013,,75
+European Union,2014,,80
+European Union,2015,,81
+European Union,2016,,81
+Finland,1984,FIN,93
+Finland,1993,FIN,87
+Finland,1996,FIN,94
+Finland,1997,FIN,90
+Finland,1998,FIN,91
+Finland,1999,FIN,90
+Finland,2000,FIN,88
+Finland,2001,FIN,88
+Finland,2002,FIN,90
+Finland,2003,FIN,91
+Finland,2004,FIN,90
+Finland,2005,FIN,94
+Finland,2006,FIN,94
+Finland,2007,FIN,95
+Finland,2008,FIN,94
+Finland,2009,FIN,96
+Finland,2010,FIN,89
+Finland,2011,FIN,95
+Finland,2012,FIN,94
+Finland,2013,FIN,94
+Finland,2014,FIN,94
+Finland,2015,FIN,95
+Finland,2016,FIN,95
+Finland,2022,FIN,89
+France,1973,FRA,77
+France,1975,FRA,74
+France,1976,FRA,71
+France,1977,FRA,70
+France,1978,FRA,70
+France,1979,FRA,69
+France,1980,FRA,71
+France,1981,FRA,70
+France,1982,FRA,76
+France,1983,FRA,73
+France,1984,FRA,89
+France,1985,FRA,71
+France,1986,FRA,72
+France,1987,FRA,73
+France,1988,FRA,67
+France,1989,FRA,77
+France,1990,FRA,77
+France,1991,FRA,77
+France,1992,FRA,73
+France,1993,FRA,91
+France,1994,FRA,75
+France,1996,FRA,79
+France,1997,FRA,74
+France,1998,FRA,72
+France,1999,FRA,80
+France,2000,FRA,80
+France,2001,FRA,79
+France,2002,FRA,79
+France,2003,FRA,75
+France,2004,FRA,91
+France,2005,FRA,82
+France,2006,FRA,85
+France,2007,FRA,83
+France,2008,FRA,79
+France,2009,FRA,84
+France,2010,FRA,91
+France,2011,FRA,80
+France,2012,FRA,85
+France,2013,FRA,83
+France,2014,FRA,84
+France,2015,FRA,86
+France,2016,FRA,84
+France,2022,FRA,91
+Georgia,1998,GEO,65
+Georgia,2010,GEO,67
+Georgia,2014,GEO,70
+Georgia,2022,GEO,79
+Germany,1973,DEU,82
+Germany,1975,DEU,79
+Germany,1976,DEU,81
+Germany,1977,DEU,83
+Germany,1978,DEU,84
+Germany,1979,DEU,87
+Germany,1980,DEU,85
+Germany,1981,DEU,77
+Germany,1982,DEU,84
+Germany,1983,DEU,80
+Germany,1984,DEU,79
+Germany,1985,DEU,82
+Germany,1986,DEU,86
+Germany,1987,DEU,85
+Germany,1988,DEU,85
+Germany,1989,DEU,89
+Germany,1990,DEU,89
+Germany,1991,DEU,85
+Germany,1992,DEU,85
+Germany,1993,DEU,81
+Germany,1994,DEU,84
+Germany,1996,DEU,80
+Germany,1997,DEU,71
+Germany,1998,DEU,81
+Germany,1999,DEU,82
+Germany,2000,DEU,76
+Germany,2001,DEU,82
+Germany,2002,DEU,80
+Germany,2003,DEU,73
+Germany,2004,DEU,84
+Germany,2005,DEU,81
+Germany,2006,DEU,82
+Germany,2007,DEU,85
+Germany,2008,DEU,83
+Germany,2009,DEU,84
+Germany,2010,DEU,81
+Germany,2011,DEU,88
+Germany,2012,DEU,89
+Germany,2013,DEU,89
+Germany,2014,DEU,84
+Germany,2015,DEU,92
+Germany,2016,DEU,90
+Germany,2022,DEU,86
+Ghana,2010,GHA,78
+Ghana,2014,GHA,81
+Greece,1981,GRC,57
+Greece,1982,GRC,61
+Greece,1983,GRC,64
+Greece,1984,GRC,64
+Greece,1985,GRC,62
+Greece,1986,GRC,67
+Greece,1987,GRC,61
+Greece,1988,GRC,61
+Greece,1989,GRC,67
+Greece,1990,GRC,64
+Greece,1991,GRC,54
+Greece,1992,GRC,55
+Greece,1993,GRC,50
+Greece,1994,GRC,52
+Greece,1996,GRC,73
+Greece,1997,GRC,63
+Greece,1998,GRC,55
+Greece,1999,GRC,62
+Greece,2000,GRC,60
+Greece,2001,GRC,59
+Greece,2002,GRC,60
+Greece,2003,GRC,63
+Greece,2004,GRC,73
+Greece,2005,GRC,65
+Greece,2006,GRC,68
+Greece,2007,GRC,67
+Greece,2008,GRC,59
+Greece,2009,GRC,44
+Greece,2010,GRC,79
+Greece,2011,GRC,41
+Greece,2012,GRC,32
+Greece,2013,GRC,37
+Greece,2014,GRC,42
+Greece,2015,GRC,41
+Greece,2016,GRC,38
+Greece,2022,GRC,71
+Guatemala,2010,GTM,78
+Guatemala,2022,GTM,91
+Haiti,2014,HTI,84
+Hong Kong,2010,HKG,84
+Hong Kong,2014,HKG,89
+Hong Kong,2022,HKG,81
+Hungary,1984,HUN,76
+Hungary,1993,HUN,67
+Hungary,1998,HUN,77
+Hungary,2004,HUN,71
+Hungary,2005,HUN,55
+Hungary,2006,HUN,52
+Hungary,2007,HUN,51
+Hungary,2008,HUN,47
+Hungary,2009,HUN,44
+Hungary,2010,HUN,78
+Hungary,2011,HUN,50
+Hungary,2012,HUN,45
+Hungary,2013,HUN,48
+Hungary,2014,HUN,63
+Hungary,2015,HUN,66
+Hungary,2016,HUN,64
+Hungary,2022,HUN,81
+Iceland,1984,ISL,96
+Iceland,1993,ISL,96
+Iceland,2004,ISL,97
+Iceland,2010,ISL,96
+Iceland,2011,ISL,97
+Iceland,2012,ISL,97
+Iceland,2013,ISL,98
+Iceland,2014,ISL,98
+Iceland,2022,ISL,95
+India,1993,IND,72
+India,1998,IND,76
+India,2004,IND,73
+India,2010,IND,75
+India,2014,IND,87
+Indonesia,2004,IDN,94
+Indonesia,2010,IDN,92
+Indonesia,2022,IDN,94
+Iran,2004,IRN,58
+Iran,2010,IRN,79
+Iran,2022,IRN,70
+Iraq,2004,IRQ,62
+Iraq,2010,IRQ,52
+Iraq,2014,IRQ,68
+Iraq,2022,IRQ,69
+Ireland,1973,IRL,92
+Ireland,1975,IRL,89
+Ireland,1976,IRL,88
+Ireland,1977,IRL,88
+Ireland,1978,IRL,89
+Ireland,1979,IRL,83
+Ireland,1980,IRL,86
+Ireland,1981,IRL,82
+Ireland,1982,IRL,86
+Ireland,1983,IRL,82
+Ireland,1984,IRL,93
+Ireland,1985,IRL,81
+Ireland,1986,IRL,81
+Ireland,1987,IRL,77
+Ireland,1988,IRL,74
+Ireland,1989,IRL,82
+Ireland,1990,IRL,87
+Ireland,1991,IRL,87
+Ireland,1992,IRL,85
+Ireland,1993,IRL,92
+Ireland,1994,IRL,86
+Ireland,1996,IRL,90
+Ireland,1997,IRL,91
+Ireland,1998,IRL,89
+Ireland,1999,IRL,87
+Ireland,2000,IRL,87
+Ireland,2001,IRL,90
+Ireland,2002,IRL,88
+Ireland,2003,IRL,86
+Ireland,2004,IRL,96
+Ireland,2005,IRL,91
+Ireland,2006,IRL,90
+Ireland,2007,IRL,90
+Ireland,2008,IRL,88
+Ireland,2009,IRL,89
+Ireland,2010,IRL,95
+Ireland,2011,IRL,87
+Ireland,2012,IRL,84
+Ireland,2013,IRL,82
+Ireland,2014,IRL,91
+Ireland,2015,IRL,93
+Ireland,2016,IRL,95
+Israel,2004,ISR,77
+Italy,1973,ITA,65
+Italy,1975,ITA,57
+Italy,1976,ITA,56
+Italy,1977,ITA,61
+Italy,1978,ITA,61
+Italy,1979,ITA,59
+Italy,1980,ITA,64
+Italy,1981,ITA,67
+Italy,1982,ITA,67
+Italy,1983,ITA,65
+Italy,1984,ITA,76
+Italy,1985,ITA,64
+Italy,1986,ITA,70
+Italy,1987,ITA,66
+Italy,1988,ITA,70
+Italy,1989,ITA,77
+Italy,1990,ITA,75
+Italy,1991,ITA,79
+Italy,1992,ITA,75
+Italy,1993,ITA,83
+Italy,1994,ITA,77
+Italy,1996,ITA,80
+Italy,1997,ITA,73
+Italy,1998,ITA,73
+Italy,1999,ITA,77
+Italy,2000,ITA,74
+Italy,2001,ITA,80
+Italy,2002,ITA,80
+Italy,2003,ITA,76
+Italy,2004,ITA,79
+Italy,2005,ITA,75
+Italy,2006,ITA,76
+Italy,2007,ITA,73
+Italy,2008,ITA,64
+Italy,2009,ITA,70
+Italy,2010,ITA,86
+Italy,2011,ITA,69
+Italy,2012,ITA,59
+Italy,2013,ITA,57
+Italy,2014,ITA,66
+Italy,2015,ITA,65
+Italy,2016,ITA,65
+Italy,2022,ITA,82
+Japan,1984,JPN,77
+Japan,1993,JPN,78
+Japan,1998,JPN,89
+Japan,2004,JPN,86
+Japan,2010,JPN,87
+Japan,2014,JPN,86
+Japan,2022,JPN,88
+Jordan,2004,JOR,83
+Jordan,2010,JOR,87
+Jordan,2014,JOR,86
+Jordan,2022,JOR,87
+Kazakhstan,2014,KAZ,89
+Kazakhstan,2022,KAZ,84
+Kenya,2022,KEN,83
+Kosovo,2010,OWID_KOS,87
+Kuwait,2014,KWT,92
+Kyrgyzstan,2004,KGZ,84
+Kyrgyzstan,2014,KGZ,96
+Kyrgyzstan,2022,KGZ,96
+Latvia,1993,LVA,44
+Latvia,1998,LVA,69
+Latvia,2004,LVA,56
+Latvia,2005,LVA,61
+Latvia,2006,LVA,63
+Latvia,2007,LVA,65
+Latvia,2008,LVA,63
+Latvia,2009,LVA,54
+Latvia,2010,LVA,74
+Latvia,2011,LVA,60
+Latvia,2012,LVA,66
+Latvia,2013,LVA,67
+Latvia,2014,LVA,72
+Latvia,2015,LVA,71
+Latvia,2016,LVA,74
+Latvia,2022,LVA,79
+Lebanon,2014,LBN,78
+Lebanon,2022,LBN,86
+Libya,2014,LBY,88
+Libya,2022,LBY,92
+Lithuania,1993,LTU,48
+Lithuania,1998,LTU,55
+Lithuania,2004,LTU,61
+Lithuania,2005,LTU,56
+Lithuania,2006,LTU,61
+Lithuania,2007,LTU,64
+Lithuania,2008,LTU,59
+Lithuania,2009,LTU,57
+Lithuania,2010,LTU,66
+Lithuania,2011,LTU,57
+Lithuania,2012,LTU,63
+Lithuania,2013,LTU,65
+Lithuania,2014,LTU,71
+Lithuania,2015,LTU,75
+Lithuania,2016,LTU,68
+Lithuania,2022,LTU,74
+Luxembourg,1973,LUX,79
+Luxembourg,1975,LUX,80
+Luxembourg,1976,LUX,88
+Luxembourg,1977,LUX,89
+Luxembourg,1978,LUX,86
+Luxembourg,1979,LUX,93
+Luxembourg,1980,LUX,93
+Luxembourg,1981,LUX,93
+Luxembourg,1982,LUX,90
+Luxembourg,1983,LUX,90
+Luxembourg,1984,LUX,91
+Luxembourg,1985,LUX,91
+Luxembourg,1986,LUX,93
+Luxembourg,1987,LUX,92
+Luxembourg,1988,LUX,87
+Luxembourg,1989,LUX,94
+Luxembourg,1990,LUX,94
+Luxembourg,1991,LUX,94
+Luxembourg,1992,LUX,94
+Luxembourg,1993,LUX,93
+Luxembourg,1994,LUX,94
+Luxembourg,1996,LUX,89
+Luxembourg,1997,LUX,93
+Luxembourg,1998,LUX,88
+Luxembourg,1999,LUX,91
+Luxembourg,2000,LUX,90
+Luxembourg,2001,LUX,92
+Luxembourg,2002,LUX,92
+Luxembourg,2003,LUX,87
+Luxembourg,2004,LUX,94
+Luxembourg,2005,LUX,94
+Luxembourg,2006,LUX,93
+Luxembourg,2007,LUX,93
+Luxembourg,2008,LUX,92
+Luxembourg,2009,LUX,96
+Luxembourg,2010,LUX,94
+Luxembourg,2011,LUX,97
+Luxembourg,2012,LUX,95
+Luxembourg,2013,LUX,93
+Luxembourg,2014,LUX,94
+Luxembourg,2015,LUX,95
+Luxembourg,2016,LUX,95
+Macao,2022,MAC,91
+Malaysia,2010,MYS,95
+Malaysia,2014,MYS,96
+Malaysia,2022,MYS,86
+Maldives,2022,MDV,88
+Mali,2010,MLI,83
+Malta,1984,MLT,81
+Malta,1993,MLT,85
+Malta,2004,MLT,87
+Malta,2005,MLT,82
+Malta,2006,MLT,79
+Malta,2007,MLT,83
+Malta,2008,MLT,85
+Malta,2009,MLT,82
+Malta,2010,MLT,89
+Malta,2011,MLT,77
+Malta,2012,MLT,78
+Malta,2013,MLT,89
+Malta,2014,MLT,90
+Malta,2015,MLT,92
+Malta,2016,MLT,93
+Mexico,1984,MEX,79
+Mexico,1993,MEX,68
+Mexico,1998,MEX,70
+Mexico,2004,MEX,91
+Mexico,2010,MEX,91
+Mexico,2014,MEX,94
+Mexico,2022,MEX,92
+Moldova,1998,MDA,43
+Moldova,2004,MDA,49
+Moldova,2010,MDA,59
+Mongolia,2022,MNG,73
+Montenegro,1998,MNE,69
+Montenegro,2004,MNE,65
+Montenegro,2010,MNE,84
+Montenegro,2011,MNE,53
+Montenegro,2012,MNE,43
+Montenegro,2013,MNE,47
+Montenegro,2014,MNE,63
+Montenegro,2015,MNE,59
+Montenegro,2016,MNE,56
+Montenegro,2022,MNE,92
+Morocco,2004,MAR,80
+Morocco,2010,MAR,81
+Morocco,2014,MAR,78
+Morocco,2022,MAR,83
+Myanmar,2022,MMR,88
+Netherlands,1973,NLD,93
+Netherlands,1975,NLD,86
+Netherlands,1976,NLD,91
+Netherlands,1977,NLD,92
+Netherlands,1978,NLD,93
+Netherlands,1979,NLD,95
+Netherlands,1980,NLD,94
+Netherlands,1981,NLD,92
+Netherlands,1982,NLD,93
+Netherlands,1983,NLD,92
+Netherlands,1984,NLD,95
+Netherlands,1985,NLD,90
+Netherlands,1986,NLD,92
+Netherlands,1987,NLD,91
+Netherlands,1988,NLD,91
+Netherlands,1989,NLD,94
+Netherlands,1990,NLD,93
+Netherlands,1991,NLD,94
+Netherlands,1992,NLD,93
+Netherlands,1993,NLD,93
+Netherlands,1994,NLD,93
+Netherlands,1996,NLD,92
+Netherlands,1997,NLD,93
+Netherlands,1998,NLD,95
+Netherlands,1999,NLD,95
+Netherlands,2000,NLD,93
+Netherlands,2001,NLD,94
+Netherlands,2002,NLD,93
+Netherlands,2003,NLD,90
+Netherlands,2004,NLD,95
+Netherlands,2005,NLD,95
+Netherlands,2006,NLD,95
+Netherlands,2007,NLD,96
+Netherlands,2008,NLD,97
+Netherlands,2009,NLD,96
+Netherlands,2010,NLD,96
+Netherlands,2011,NLD,96
+Netherlands,2012,NLD,94
+Netherlands,2013,NLD,95
+Netherlands,2014,NLD,92
+Netherlands,2015,NLD,96
+Netherlands,2016,NLD,97
+Netherlands,2022,NLD,91
+New Zealand,1998,NZL,94
+New Zealand,2010,NZL,96
+New Zealand,2014,NZL,92
+New Zealand,2022,NZL,93
+Nicaragua,2022,NIC,86
+Nigeria,1993,NGA,65
+Nigeria,1998,NGA,84
+Nigeria,2004,NGA,92
+Nigeria,2014,NGA,85
+Nigeria,2022,NGA,72
+North Macedonia,1998,MKD,62
+North Macedonia,2004,MKD,75
+North Macedonia,2007,MKD,63
+North Macedonia,2008,MKD,64
+North Macedonia,2009,MKD,67
+North Macedonia,2010,MKD,80
+North Macedonia,2011,MKD,62
+North Macedonia,2012,MKD,63
+North Macedonia,2013,MKD,63
+North Macedonia,2014,MKD,68
+North Macedonia,2015,MKD,62
+North Macedonia,2016,MKD,62
+North Macedonia,2022,MKD,87
+Northern Cyprus,2010,OWID_CYN,76
+Northern Ireland,1984,,95
+Northern Ireland,1993,,93
+Northern Ireland,2004,,95
+Northern Ireland,2010,,94
+Northern Ireland,2022,,93
+Norway,1984,NOR,92
+Norway,1990,NOR,90
+Norway,1991,NOR,93
+Norway,1992,NOR,92
+Norway,1993,NOR,93
+Norway,1994,NOR,94
+Norway,1998,NOR,94
+Norway,2010,NOR,96
+Norway,2022,NOR,94
+Pakistan,1998,PAK,79
+Pakistan,2004,PAK,76
+Pakistan,2014,PAK,85
+Pakistan,2022,PAK,89
+Palestine,2014,PSE,74
+Peru,1998,PER,63
+Peru,2004,PER,66
+Peru,2010,PER,67
+Peru,2014,PER,76
+Peru,2022,PER,81
+Philippines,1998,PHL,92
+Philippines,2004,PHL,88
+Philippines,2014,PHL,89
+Philippines,2022,PHL,91
+Poland,1993,POL,68
+Poland,1998,POL,85
+Poland,2004,POL,77
+Poland,2005,POL,69
+Poland,2006,POL,73
+Poland,2007,POL,77
+Poland,2008,POL,75
+Poland,2009,POL,77
+Poland,2010,POL,86
+Poland,2011,POL,76
+Poland,2012,POL,76
+Poland,2013,POL,76
+Poland,2014,POL,93
+Poland,2015,POL,82
+Poland,2016,POL,82
+Poland,2022,POL,91
+Portugal,1985,PRT,55
+Portugal,1986,PRT,65
+Portugal,1987,PRT,70
+Portugal,1988,PRT,60
+Portugal,1989,PRT,70
+Portugal,1990,PRT,72
+Portugal,1991,PRT,73
+Portugal,1992,PRT,74
+Portugal,1993,PRT,73
+Portugal,1994,PRT,70
+Portugal,1996,PRT,82
+Portugal,1997,PRT,63
+Portugal,1998,PRT,59
+Portugal,1999,PRT,67
+Portugal,2000,PRT,66
+Portugal,2001,PRT,67
+Portugal,2002,PRT,62
+Portugal,2003,PRT,56
+Portugal,2004,PRT,83
+Portugal,2005,PRT,58
+Portugal,2006,PRT,59
+Portugal,2007,PRT,59
+Portugal,2008,PRT,49
+Portugal,2009,PRT,51
+Portugal,2010,PRT,90
+Portugal,2011,PRT,46
+Portugal,2012,PRT,33
+Portugal,2013,PRT,36
+Portugal,2014,PRT,52
+Portugal,2015,PRT,55
+Portugal,2016,PRT,65
+Portugal,2022,PRT,88
+Puerto Rico,1998,PRI,91
+Puerto Rico,2004,PRI,94
+Puerto Rico,2022,PRI,91
+Qatar,2014,QAT,98
+Romania,1993,ROU,62
+Romania,1998,ROU,56
+Romania,2004,ROU,47
+Romania,2005,ROU,46
+Romania,2006,ROU,46
+Romania,2007,ROU,51
+Romania,2008,ROU,50
+Romania,2009,ROU,47
+Romania,2010,ROU,64
+Romania,2011,ROU,45
+Romania,2012,ROU,46
+Romania,2013,ROU,48
+Romania,2014,ROU,69
+Romania,2015,ROU,58
+Romania,2016,ROU,59
+Romania,2022,ROU,78
+Russia,1993,RUS,47
+Russia,1998,RUS,50
+Russia,2004,RUS,48
+Russia,2010,RUS,68
+Russia,2014,RUS,73
+Russia,2022,RUS,79
+Rwanda,2010,RWA,85
+Rwanda,2014,RWA,90
+Saudi Arabia,2004,SAU,91
+Serbia,1998,SRB,70
+Serbia,2004,SRB,74
+Serbia,2010,SRB,69
+Serbia,2012,SRB,34
+Serbia,2013,SRB,38
+Serbia,2014,SRB,49
+Serbia,2015,SRB,45
+Serbia,2016,SRB,46
+Serbia,2022,SRB,80
+Singapore,2004,SGP,95
+Singapore,2014,SGP,93
+Singapore,2022,SGP,89
+Slovakia,1993,SVK,55
+Slovakia,1998,SVK,71
+Slovakia,2004,SVK,69
+Slovakia,2005,SVK,63
+Slovakia,2006,SVK,69
+Slovakia,2007,SVK,70
+Slovakia,2008,SVK,70
+Slovakia,2009,SVK,68
+Slovakia,2010,SVK,81
+Slovakia,2011,SVK,71
+Slovakia,2012,SVK,68
+Slovakia,2013,SVK,66
+Slovakia,2014,SVK,70
+Slovakia,2015,SVK,72
+Slovakia,2016,SVK,75
+Slovakia,2022,SVK,79
+Slovenia,1993,SVN,55
+Slovenia,1998,SVN,74
+Slovenia,2004,SVN,76
+Slovenia,2005,SVN,88
+Slovenia,2006,SVN,88
+Slovenia,2007,SVN,89
+Slovenia,2008,SVN,87
+Slovenia,2009,SVN,86
+Slovenia,2010,SVN,81
+Slovenia,2011,SVN,83
+Slovenia,2012,SVN,85
+Slovenia,2013,SVN,82
+Slovenia,2014,SVN,83
+Slovenia,2015,SVN,84
+Slovenia,2016,SVN,88
+Slovenia,2022,SVN,84
+South Africa,1984,ZAF,80
+South Africa,1993,ZAF,66
+South Africa,1998,ZAF,72
+South Africa,2004,ZAF,77
+South Africa,2010,ZAF,78
+South Africa,2014,ZAF,76
+South Korea,1993,KOR,75
+South Korea,1998,KOR,89
+South Korea,2004,KOR,88
+South Korea,2010,KOR,87
+South Korea,2014,KOR,90
+South Korea,2022,KOR,89
+Spain,1984,ESP,78
+Spain,1985,ESP,70
+Spain,1986,ESP,73
+Spain,1987,ESP,73
+Spain,1988,ESP,68
+Spain,1989,ESP,78
+Spain,1990,ESP,77
+Spain,1991,ESP,79
+Spain,1992,ESP,76
+Spain,1993,ESP,83
+Spain,1994,ESP,71
+Spain,1996,ESP,80
+Spain,1997,ESP,77
+Spain,1998,ESP,87
+Spain,1999,ESP,83
+Spain,2000,ESP,82
+Spain,2001,ESP,85
+Spain,2002,ESP,82
+Spain,2003,ESP,83
+Spain,2004,ESP,87
+Spain,2005,ESP,85
+Spain,2006,ESP,89
+Spain,2007,ESP,87
+Spain,2008,ESP,84
+Spain,2009,ESP,75
+Spain,2010,ESP,91
+Spain,2011,ESP,75
+Spain,2012,ESP,72
+Spain,2013,ESP,70
+Spain,2014,ESP,86
+Spain,2015,ESP,77
+Spain,2016,ESP,78
+Spain,2022,ESP,89
+Sweden,1984,SWE,94
+Sweden,1993,SWE,95
+Sweden,1996,SWE,94
+Sweden,1997,SWE,96
+Sweden,1998,SWE,94
+Sweden,1999,SWE,95
+Sweden,2000,SWE,94
+Sweden,2001,SWE,95
+Sweden,2002,SWE,93
+Sweden,2003,SWE,93
+Sweden,2004,SWE,93
+Sweden,2005,SWE,96
+Sweden,2006,SWE,96
+Sweden,2007,SWE,96
+Sweden,2008,SWE,96
+Sweden,2009,SWE,96
+Sweden,2010,SWE,92
+Sweden,2011,SWE,96
+Sweden,2012,SWE,97
+Sweden,2013,SWE,97
+Sweden,2014,SWE,95
+Sweden,2015,SWE,96
+Sweden,2016,SWE,96
+Sweden,2022,SWE,94
+Switzerland,1993,CHE,93
+Switzerland,1998,CHE,94
+Switzerland,2010,CHE,93
+Switzerland,2022,CHE,93
+Taiwan,1998,TWN,91
+Taiwan,2010,TWN,85
+Taiwan,2014,TWN,90
+Taiwan,2022,TWN,91
+Tajikistan,2022,TJK,94
+Tanzania,2004,TZA,93
+Thailand,2010,THA,92
+Thailand,2014,THA,93
+Thailand,2022,THA,84
+Trinidad and Tobago,2010,TTO,87
+Trinidad and Tobago,2014,TTO,88
+Tunisia,2014,TUN,79
+Tunisia,2022,TUN,77
+Turkey,1993,TUR,81
+Turkey,1998,TUR,88
+Turkey,2004,TUR,72
+Turkey,2005,TUR,73
+Turkey,2006,TUR,71
+Turkey,2007,TUR,73
+Turkey,2008,TUR,61
+Turkey,2009,TUR,61
+Turkey,2010,TUR,79
+Turkey,2011,TUR,64
+Turkey,2012,TUR,67
+Turkey,2013,TUR,67
+Turkey,2014,TUR,84
+Turkey,2015,TUR,65
+Turkey,2016,TUR,66
+Turkey,2022,TUR,85
+Turkish Cypriot Community,2004,,66
+Turkish Cypriot Community,2005,,73
+Turkish Cypriot Community,2006,,75
+Turkish Cypriot Community,2007,,69
+Turkish Cypriot Community,2008,,58
+Turkish Cypriot Community,2009,,53
+Turkish Cypriot Community,2010,,61
+Turkish Cypriot Community,2011,,57
+Turkish Cypriot Community,2012,,47
+Turkish Cypriot Community,2013,,44
+Turkish Cypriot Community,2014,,49
+Turkish Cypriot Community,2015,,51
+Turkish Cypriot Community,2016,,49
+Uganda,2004,UGA,79
+Ukraine,1998,UKR,46
+Ukraine,2004,UKR,46
+Ukraine,2010,UKR,71
+Ukraine,2014,UKR,68
+Ukraine,2022,UKR,76
+United Kingdom,1973,GBR,85
+United Kingdom,1975,GBR,84
+United Kingdom,1976,GBR,84
+United Kingdom,1977,GBR,83
+United Kingdom,1978,GBR,86
+United Kingdom,1979,GBR,85
+United Kingdom,1980,GBR,86
+United Kingdom,1981,GBR,83
+United Kingdom,1982,GBR,86
+United Kingdom,1983,GBR,84
+United Kingdom,1984,GBR,95
+United Kingdom,1985,GBR,86
+United Kingdom,1986,GBR,85
+United Kingdom,1987,GBR,86
+United Kingdom,1988,GBR,80
+United Kingdom,1989,GBR,88
+United Kingdom,1990,GBR,86
+United Kingdom,1991,GBR,86
+United Kingdom,1992,GBR,84
+United Kingdom,1993,GBR,91
+United Kingdom,1994,GBR,87
+United Kingdom,1996,GBR,86
+United Kingdom,1997,GBR,86
+United Kingdom,1998,GBR,91
+United Kingdom,1999,GBR,83
+United Kingdom,2000,GBR,87
+United Kingdom,2001,GBR,88
+United Kingdom,2002,GBR,87
+United Kingdom,2003,GBR,87
+United Kingdom,2004,GBR,90
+United Kingdom,2005,GBR,88
+United Kingdom,2006,GBR,88
+United Kingdom,2007,GBR,89
+United Kingdom,2008,GBR,87
+United Kingdom,2009,GBR,89
+United Kingdom,2010,GBR,92
+United Kingdom,2011,GBR,90
+United Kingdom,2012,GBR,91
+United Kingdom,2013,GBR,90
+United Kingdom,2014,GBR,93
+United Kingdom,2015,GBR,93
+United Kingdom,2016,GBR,93
+United Kingdom,2022,GBR,91
+United States,1984,USA,90
+United States,1993,USA,88
+United States,1998,USA,94
+United States,2004,USA,93
+United States,2010,USA,93
+United States,2014,USA,90
+United States,2022,USA,88
+Uruguay,1998,URY,79
+Uruguay,2010,URY,86
+Uruguay,2014,URY,86
+Uruguay,2022,URY,91
+Uzbekistan,2014,UZB,96
+Venezuela,1998,VEN,93
+Venezuela,2004,VEN,86
+Venezuela,2022,VEN,79
+Vietnam,2004,VNM,91
+Vietnam,2010,VNM,92
+Vietnam,2022,VNM,97
+Yemen,2014,YEM,72
+Zambia,2010,ZMB,52
+Zimbabwe,2004,ZWE,55
+Zimbabwe,2014,ZWE,79
+Zimbabwe,2022,ZWE,52
