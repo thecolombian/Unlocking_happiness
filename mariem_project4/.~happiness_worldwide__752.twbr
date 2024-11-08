@@ -3,7 +3,9 @@
 <!-- build 20243.24.1010.1014                               -->
 <workbook original-version='18.1' source-build='2024.3.0 (20243.24.1010.1014)' source-platform='mac' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
   <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
     <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
     <IntuitiveSorting />
     <IntuitiveSorting_SP2 />
     <MapboxVectorStylesAndLayers />
@@ -1331,8 +1333,8 @@
         </view>
         <style>
           <style-rule element='axis'>
-            <encoding attr='space' class='0' field='[federated.1urka3m1mcyinh15c4rsc1h5iv6a].[Longitude (generated)]' field-type='quantitative' max='-13536861.778635092' min='-69433775.098875225' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
-            <encoding attr='space' class='0' field='[federated.1urka3m1mcyinh15c4rsc1h5iv6a].[Latitude (generated)]' field-type='quantitative' max='18946079.885241162' min='-8414675.4588776659' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.1urka3m1mcyinh15c4rsc1h5iv6a].[Longitude (generated)]' field-type='quantitative' max='20901078.72331547' min='-22488968.190946616' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1urka3m1mcyinh15c4rsc1h5iv6a].[Latitude (generated)]' field-type='quantitative' max='16266836.989919066' min='-4971982.6062443312' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
           </style-rule>
           <style-rule element='mark'>
             <encoding attr='color' field='[federated.1urka3m1mcyinh15c4rsc1h5iv6a].[avg:Happiness:qk]' num-steps='12' palette='orange_blue_diverging_10_0' type='interpolated' />
@@ -1791,6 +1793,78 @@
     </worksheet>
   </worksheets>
   <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97142' id='7' param='horz' type-v2='layout-flow' w='97538' x='1231' y='1429'>
+            <zone h='97142' id='5' type-v2='layout-basic' w='72923' x='1231' y='1429'>
+              <zone h='97142' id='3' name='Sheet 1' w='72923' x='1231' y='1429'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='97142' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='24615' x='74154' y='1429'>
+              <zone h='11608' id='8' name='Sheet 1' pane-specification-id='0' param='[federated.1urka3m1mcyinh15c4rsc1h5iv6a].[avg:Happiness:qk]' type-v2='color' w='24615' x='74154' y='1429'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='12' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97714' id='11' param='vert' type-v2='layout-flow' w='95734' x='2133' y='1143'>
+                <zone fixed-size='280' h='41143' id='3' is-fixed='true' name='Sheet 1' w='95734' x='2133' y='1143'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9286' id='8' name='Sheet 1' pane-specification-id='0' param='[federated.1urka3m1mcyinh15c4rsc1h5iv6a].[avg:Happiness:qk]' type-v2='color' w='95734' x='2133' y='42286'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{0F01EF09-982D-4552-B103-67FE64858A36}' />
+    </dashboard>
     <dashboard name='Story 1' type='storyboard'>
       <style />
       <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
@@ -1802,7 +1876,19 @@
             <zone h='84440' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='14730'>
               <flipboard active-id='1' nav-type='caption' show-nav-arrows='true'>
                 <story-points>
-                  <story-point captured-sheet='' id='1' />
+                  <story-point captured-sheet='Sheet 1' id='1'>
+                    <currentDeltas>
+                      <worksheet name='Sheet 1'>
+                        <style delta-type='added'>
+                          <style-rule element='axis'>
+                            <encoding attr='space' class='0' field='[federated.1urka3m1mcyinh15c4rsc1h5iv6a].[Latitude (generated)]' field-type='quantitative' max='25537740.999611784' min='-19226850.796050116' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+                            <encoding attr='space' class='0' field='[federated.1urka3m1mcyinh15c4rsc1h5iv6a].[Longitude (generated)]' field-type='quantitative' max='-15370192.965297736' min='-61595109.063593321' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+                          </style-rule>
+                        </style>
+                      </worksheet>
+                    </currentDeltas>
+                    <capturedDeltas />
+                  </story-point>
                 </story-points>
               </flipboard>
             </zone>
@@ -1850,7 +1936,7 @@
       </viewpoint>
       <simple-id uuid='{4E7D9D40-053A-4A43-9EBA-7FF4258E2AD2}' />
     </window>
-    <window class='worksheet' name='Sheet 2'>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -1878,7 +1964,7 @@
       </cards>
       <simple-id uuid='{A54094FA-96E6-4907-A7A1-A898ABC764FF}' />
     </window>
-    <window class='worksheet' maximized='true' name='Sheet 3'>
+    <window class='worksheet' name='Sheet 3'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -2075,8 +2161,20 @@
     </window>
     <window class='dashboard' name='Story 1'>
       <viewpoints />
-      <active id='-1' />
+      <active id='4' />
       <simple-id uuid='{BBD1847A-BE62-46E2-B2BB-099EB7B01A9A}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='8' />
+      <device-preview visible='true'>
+        <device name='iPhone 7, 8' type='Phone' />
+      </device-preview>
+      <simple-id uuid='{A7061B76-7563-4057-AFEE-07CFF53B69FE}' />
     </window>
   </windows>
 </workbook>
