@@ -67,7 +67,7 @@ This project not only serves as a resource for businesses but also contributes t
 
 This project aims to address the question, "How has the shift in work settings and locations affected employee well-being and life satisfaction?" To answer this, the analysis will delve into related sub-questions to provide a comprehensive understanding of the factors influencing employee satisfaction.
 
-1. Determine which work-related and personal factors—such as stress levels, sleep quality, and access to mental health resources—exert the most significant impact on overall employee well-being and satisfaction?
+1. 
 
 2.
 
