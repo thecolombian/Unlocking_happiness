@@ -836,6 +836,9 @@
       <column caption='Work Location' datatype='string' name='[Work_Location]' role='dimension' type='nominal' />
       <column caption='Years of Experience' datatype='integer' name='[Years_of_Experience]' role='measure' type='quantitative' />
       <column caption='Impact_of_Remote_Work_on_Mental_Health.csv' datatype='table' name='[__tableau_internal_object_id__].[Impact_of_Remote_Work_on_Mental_Health.csv_3794BCC1FF0F46D7A7DF6BA34886EC6B]' role='measure' type='quantitative' />
+      <column-instance column='[Work_Life_Balance_Rating]' derivation='Avg' name='[avg:Work_Life_Balance_Rating:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Years_of_Experience]' derivation='Avg' name='[avg:Years_of_Experience:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Work_Life_Balance_Rating]' derivation='Sum' name='[sum:Work_Life_Balance_Rating:qk]' pivot='key' type='quantitative' />
       <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
         <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='Data/tableau-temp 2/#TableauTemp_0e1ual80y03jy31fd1xg20g1vtex.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
           <relation name='Extract' table='[Extract].[Extract]' type='table' />
@@ -1117,6 +1120,21 @@
         </connection>
       </extract>
       <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.13ybxue05d5hz715pqkz3170noih].[avg:Years_of_Experience:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.13ybxue05d5hz715pqkz3170noih].[avg:Work_Life_Balance_Rating:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.13ybxue05d5hz715pqkz3170noih].[sum:Work_Life_Balance_Rating:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
       <semantic-values>
         <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
       </semantic-values>
@@ -1695,6 +1713,7 @@
             <column caption='Sleep Quality' datatype='string' name='[Sleep_Quality]' role='dimension' type='nominal' />
             <column caption='Work Life Balance Rating' datatype='integer' name='[Work_Life_Balance_Rating]' role='measure' type='quantitative' />
             <column caption='Work Location' datatype='string' name='[Work_Location]' role='dimension' type='nominal' />
+            <column-instance column='[Work_Life_Balance_Rating]' derivation='Avg' name='[avg:Work_Life_Balance_Rating:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Work_Life_Balance_Rating]' derivation='Median' name='[med:Work_Life_Balance_Rating:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Region]' derivation='None' name='[none:Region:nk]' pivot='key' type='nominal' />
             <column-instance column='[Sleep_Quality]' derivation='None' name='[none:Sleep_Quality:nk]' pivot='key' type='nominal' />
@@ -1718,9 +1737,49 @@
           </pane>
         </panes>
         <rows>([federated.13ybxue05d5hz715pqkz3170noih].[none:Work_Location:nk] / [federated.13ybxue05d5hz715pqkz3170noih].[none:Region:nk])</rows>
-        <cols>[federated.13ybxue05d5hz715pqkz3170noih].[med:Work_Life_Balance_Rating:qk]</cols>
+        <cols>[federated.13ybxue05d5hz715pqkz3170noih].[avg:Work_Life_Balance_Rating:qk]</cols>
       </table>
       <simple-id uuid='{2F9F5EBC-F11E-4B97-8237-4C829DE2DCF9}' />
+    </worksheet>
+    <worksheet name='Sheet 9'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Impact_of_Remote_Work_on_Mental_Health' name='federated.13ybxue05d5hz715pqkz3170noih' />
+          </datasources>
+          <datasource-dependencies datasource='federated.13ybxue05d5hz715pqkz3170noih'>
+            <column caption='Hours Worked Per Week' datatype='integer' name='[Hours_Worked_Per_Week]' role='dimension' type='quantitative' />
+            <column caption='Job Role' datatype='string' name='[Job_Role]' role='dimension' type='nominal' />
+            <column caption='Sleep Quality' datatype='string' name='[Sleep_Quality]' role='dimension' type='nominal' />
+            <column-instance column='[Hours_Worked_Per_Week]' derivation='Avg' name='[avg:Hours_Worked_Per_Week:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Job_Role]' derivation='None' name='[none:Job_Role:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Sleep_Quality]' derivation='None' name='[none:Sleep_Quality:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.13ybxue05d5hz715pqkz3170noih].[none:Job_Role:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.13ybxue05d5hz715pqkz3170noih].[avg:Hours_Worked_Per_Week:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.13ybxue05d5hz715pqkz3170noih].[none:Sleep_Quality:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.13ybxue05d5hz715pqkz3170noih].[avg:Hours_Worked_Per_Week:qk]</rows>
+        <cols>[federated.13ybxue05d5hz715pqkz3170noih].[none:Job_Role:nk]</cols>
+      </table>
+      <simple-id uuid='{BFF5C892-B0A3-4A76-88C3-CBB0372B1D45}' />
     </worksheet>
   </worksheets>
   <dashboards>
@@ -1977,6 +2036,34 @@
         </edge>
       </cards>
       <simple-id uuid='{6A3CD45E-5202-450E-9687-C513FBF5BBB0}' />
+    </window>
+    <window class='worksheet' name='Sheet 9'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.13ybxue05d5hz715pqkz3170noih].[none:Sleep_Quality:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{FCC0220E-83BF-4569-96B7-16CAAC2A4F78}' />
     </window>
     <window class='dashboard' name='Story 1'>
       <viewpoints />
