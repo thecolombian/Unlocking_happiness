@@ -32,13 +32,14 @@
   - [Resources](#resources)
   - [Project Outline](#project-outline)
   - [Machine Learning Models](#machine-learning-models)
-    - [Supervised Learning](#supervised-learning)
+      - [Unsupervised Learning](#unsupervised-learning)
+      - [Supervised Learning](#supervised-learning)
         - [Linear Regression Model](#linear-regression-model)
         - [Decision Tree Model](#decision-tree-model)
         - [Random Forest Model](#random-forest-model)
-    - [Unsupervised Learning](#unsupervised-learning)
-    - [](#)
-    - [](#)
+    - [Satisfaction with Remote Work](#)
+- [Tableau](#tableau)
+    - [Social Isolation](#social-isolation)
     - [](#)
     - [](#)
     - [](#)
@@ -53,35 +54,33 @@
 
 ## Project Description
 
-In the rapidly changing work landscape following the pandemic, companies globally are facing new challenges around employee morale, productivity, and overall well-being. This project aims to analyze how various work settings and personal factors impact employees' life satisfaction and overall well-being, providing data-driven insights for organizations seeking to foster a more productive and positive work environment.
+In today’s rapidly evolving work landscape, especially post-pandemic, companies worldwide are encountering new challenges related to employee morale, productivity, and overall well-being. This project seeks to analyze how various work settings and personal factors contribute to employees' life satisfaction and well-being, offering data-driven insights that organizations can use to create a more supportive and productive work environment.
 
-Leveraging a range of machine learning techniques, including Decision Trees, Random Forests, supervised and unsupervised learning, and Principal Component Analysis (PCA), we aim to identify patterns and relationships among factors such as stress levels, sleep quality, access to mental health resources, physical activity, social isolation, work-life balance, and job satisfaction. Each of these techniques provides unique insights: supervised learning models, like Decision Trees and Random Forests, allow us to predict life satisfaction and identify the most influential factors, while unsupervised learning and PCA help uncover hidden patterns within the data, grouping employees with similar experiences and highlighting key areas where work conditions impact well-being.
+The analysis incorporates a comprehensive dataset that includes key variables influencing individual well-being, such as stress levels, sleep quality, access to mental health resources, physical activity, social isolation, work-life balance, and job satisfaction. While happiness is a multifaceted concept influenced by many factors, this project focuses specifically on workplace conditions to uncover patterns that might explain why certain countries, like Iceland, Denmark, and Sweden, consistently rank among the highest in overall happiness.
 
-Our approach aims to produce actionable insights that highlight critical areas where companies can focus to enhance employee satisfaction, productivity, and overall motivation. By understanding the factors that significantly influence well-being, organizations can develop strategies to improve workplace culture, support mental health, and drive productivity.
+To achieve these insights, a range of machine learning techniques—including Decision Trees, Random Forests, supervised and unsupervised learning, and Principal Component Analysis (PCA)—is employed. Supervised models like Decision Trees and Random Forests allow for the prediction of life satisfaction and identification of the most impactful factors, while unsupervised learning and PCA reveal hidden patterns and groupings within the data. These methods highlight key areas where work-related factors influence well-being and allow for a deeper understanding of the links between workplace conditions and overall happiness.
 
-This project not only serves as a resource for businesses but also contributes to the broader conversation on work-life balance and employee well-being in the post-pandemic era. The combination of robust data analysis and advanced machine learning techniques ensures that the findings are both comprehensive and grounded in modern analytical methods, making them valuable for strategic decision-making in today's evolving work environment.
+By generating actionable insights, this project aims to equip organizations with strategies to enhance employee satisfaction, well-being, and motivation. Beyond serving as a practical resource for businesses, this analysis also contributes to the broader discourse on work-life balance and employee happiness in the modern workplace. The combination of thorough data analysis and advanced machine learning techniques ensures that these findings are both comprehensive and rooted in robust analytical methods, making them valuable for decision-making in today’s dynamic work environment.
 
 [Back to Top](#top)
 
 ## Objective
 
-This project aims to address the question, "How has the shift in work settings and locations affected employee well-being and life satisfaction?" To answer this, the analysis will delve into related sub-questions to provide a comprehensive understanding of the factors influencing employee satisfaction.
+This project aims to address the question, "How do working conditions impact employee well-being and life satisfaction in countries with higher happiness ratings?" To answer this, the analysis will delve into related sub-questions to provide a comprehensive understanding of the factors influencing employee satisfaction.
 
-1. 
-
-2.
-
-3.
-
-4.
-
-5.
+1. [Sleep quality analysis question goes here]
 
 
+2. Which factors are the strongest predictors of stress level, and how do their individual contributions vary in determining high, medium, or low stress among individuals?
 
-Uncover Workforce Segments: Discover identifiable patterns or clusters within the workforce based on well-being indicators, revealing distinct groups of employees with similar experiences and needs.
+3. [Isolation analysis question goes here]
 
-Build Predictive Models: Develop and evaluate predictive models that can accurately forecast life satisfaction and productivity based on specific work conditions and individual factors.
+4. [Mental Health question goes here/Jenny's question]
+
+5. [Jorge's question goes here]
+
+
+
 
 
 [Back to Top](#top)
@@ -94,29 +93,25 @@ The following dataset was used for this analysis:
   - [Remote Work and Mental Health](https://www.kaggle.com/datasets/waqi786/remote-work-and-mental-health) 
 
 > [!WARNING]
-> Please note that the dataset used in this analysis may contain synthetic data. Synthetic data is artificially generated, often designed to resemble real-world data patterns without originating from actual individuals or events. While synthetic datasets can provide valuable insights and maintain privacy, they may not fully capture the complexities and nuances found in authentic data.
-
-Analyses and insights derived from synthetic data should be interpreted with caution, as certain trends, correlations, or relationships may not hold in real-world applications. When applying these findings to real-world scenarios, further validation using authentic data is recommended to ensure accuracy and reliability.
-
-We advise stakeholders to consider this limitation when drawing conclusions or making data-driven decisions based on this analysis.
+> Please note that the dataset used in this analysis may contain synthetic data. Synthetic data is artificially generated, often designed to resemble real-world data patterns without originating from actual individuals or events. While synthetic datasets can provide valuable insights and maintain privacy, they may not fully capture the complexities and nuances found in authentic data. Analyses and insights derived from synthetic data should be interpreted with caution, as certain trends, correlations, or relationships may not hold in real-world applications. When applying these findings to real-world scenarios, further validation using authentic data is recommended to ensure accuracy and reliability. We advise stakeholders to consider this limitation when drawing conclusions or making data-driven decisions based on this analysis.
 
 
 [Back to Top](#top)
 
 ## Project Outline
-1. Project Ideation: Define the research questions, objectives, and scope of the project to ensure a clear focus on the impact of work settings on employee well-being.
+1. **Project Ideation:** Define the research questions, objectives, and scope of the project to ensure a clear focus on the impact of work settings on employee well-being.
 
-2. Data Fetching/API Integration: Collect relevant data through APIs or data sources, ensuring a comprehensive dataset that includes key indicators of employee work setting and well-being.
+2. **Data Fetching Integration:** Collect relevant data through data sources, ensuring a comprehensive dataset that includes key indicators of employee work setting and well-being.
 
-3. Data Analysis: Clean, preprocess, and analyze the data to uncover patterns, correlations, and insights into factors affecting employee well-being.
+3. **Data Analysis:** Clean, preprocess, and analyze the data to uncover patterns, correlations, and insights into factors affecting employee well-being.
 
-4. Building the ML Model: Develop machine learning models, such as Decision Trees and Random Forests, to identify influential factors and predict employee satisfaction levels.
+4. **Building the ML Model:** Develop machine learning models, such as Decision Trees and Random Forests, to identify influential factors and predict employee satisfaction levels.
 
-5. Testing: Evaluate and validate model performance to ensure accuracy and reliability in predicting employee well-being and satisfaction.
+5. **Testing:** Evaluate and validate model performance to ensure accuracy and reliability in predicting employee well-being and satisfaction.
 
-6. Creating Documentation: Document the project process, methodology, and findings to ensure clarity and reproducibility for future users.
+6. **Creating Documentation:** Document the project process, methodology, and findings to ensure clarity and reproducibility for future users.
 
-7. Creating the Presentation: Summarize the insights, methodology, and results in a presentation format to communicate findings effectively to stakeholders.
+7. **Creating the Presentation:** Summarize the insights, methodology, and results in a presentation format to communicate findings effectively to stakeholders.
 
 [Back to Top](#top)
 
@@ -132,6 +127,14 @@ Machine learning models are computer programs created to recognize patterns in d
 [Back to Top](#top)
 
 ---
+## Unsupervised Learning
+
+<div align="center">
+    <img src="ENTER PHOTO HERE" alt="" width="500"/>
+</div>
+
+[Back to Top](#top)
+
 
 ## Supervised Learning
 
@@ -174,15 +177,6 @@ Supervised learning is a type of machine learning where the model learns from la
 [Back to Top](#top)
 
 
-## Unsupervised Learning
-
-<div align="center">
-    <img src="ENTER PHOTO HERE" alt="" width="500"/>
-</div>
-
-[Back to Top](#top)
-
-
 
 
 
@@ -191,3 +185,10 @@ Supervised learning is a type of machine learning where the model learns from la
 
 
 ## Reccomendation
+
+
+
+
+
+
+
