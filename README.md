@@ -3,12 +3,11 @@
 </div>
 
 <div align="center">
-    <h2>Data Insights On What<br>
-    Really Matters In Life</h2>
+    <img src="https://github.com/thecolombian/Project-4/blob/tai/IMAGES/intro_pic.jpg" alt="intro_pic" width="700"/>
 </div>
 
 <div align="center">
-    <img src="ENTER PHOTO HERE" alt="" width="500"/>
+    <h2>Data Insights On What Really Matters In Life</h2>
 </div>
 
 <div align="center">
@@ -76,9 +75,9 @@ By generating actionable insights, this project aims to equip organizations with
 
 This project aims to address the question, "How do working conditions impact employee well-being and life satisfaction in countries with higher happiness ratings?" To answer this, the analysis will delve into related sub-questions to provide a comprehensive understanding of the factors influencing employee satisfaction.
 
-1. Does work location (remote, hybrid, on-site), serve as a positive driving force towards increasing people’s well being and life satisfaction?  
+**1.** Does work location (remote, hybrid, on-site), serve as a positive driving force towards increasing people’s well being and life satisfaction?  
 
-2. Can machine learning help us understand which variables have the highest impact to a greater quality of life?
+**2.** Can machine learning help us understand which variables have the highest impact to a greater quality of life?
 
 
 By exploring these questions, we aim to deepen our understanding of the factors that influence individual happiness and uncover new strategies to enhance overall quality of life.
@@ -89,7 +88,7 @@ By exploring these questions, we aim to deepen our understanding of the factors 
 
 ## Resources
 
-The following dataset was used for this analysis:
+**The following dataset was used for this analysis:**
 
 ### Remote Work & Mental Health
 
@@ -147,10 +146,10 @@ The data revealed that Iceland, Denmark, and Sweden rank as the top three countr
 Building on the initial findings, we developed a Tableau dashboard to examine four key factors that may impact happiness across different work settings: sleep quality, stress levels, feelings of isolation, and mental health ratings. By analyzing these metrics, we aim to uncover data-driven insights into how work environments shape overall well-being. This broader perspective provides a foundation for deeper exploration into how specific work conditions can enhance or detract from life satisfaction.
 
 <div align="center">
-    <img src="ENTER PHOTO HERE" alt="" width="500"/>
+    <img src="This is for jorge" alt="" width="500"/>
 </div>
 
-[ADD A SHORT SUMMARY OF DASHBOARD HERE]
+[This is for jorge to complete ADD A SHORT SUMMARY OF DASHBOARD HERE]
 
 [Back to Top](#top)
 
@@ -159,7 +158,7 @@ Building on the initial findings, we developed a Tableau dashboard to examine fo
 Machine learning models are computer programs created to recognize patterns in data and make predictions. These models are developed using machine learning algorithms, trained on data that may be labeled, unlabeled, or a mix of both. For this project, two primary types of machine learning models are used: Supervised and Unsupervised Learning. Below is an example illustrating how a machine learning model works.
 
 <div align="center">
-    <img src="ENTER PHOTO HERE" alt="" width="500"/>
+    <img src="https://github.com/thecolombian/Project-4/blob/main/IMAGES/machine_learning.jpg" alt="machine_learning" width="700"/>
 </div>
 
 [Back to Top](#top)
@@ -173,7 +172,7 @@ Unsupervised learning is a type of machine learning where the model is trained o
 </div>
 
 <div align="center">
-    <img src="ENTER PHOTO HERE" alt="" width="500"/>
+    <img src="https://github.com/thecolombian/Project-4/blob/main/IMAGES/Unsupervised_learning.png" alt="unsupervised_learning" width="700"/>
 </div>
 
 ### Clustering and PCA Models
@@ -193,36 +192,52 @@ Supervised learning is a type of machine learning where the model is trained on 
 </div>
 
 <div align="center">
-    <img src="ENTER PHOTO HERE" alt="" width="500"/>
+    <img src="https://github.com/thecolombian/Project-4/blob/tai/IMAGES/supervised_learning.png" alt="supervised_learning" width="700"/>
 </div>
 
 
 
 ### Decision Tree Model
 
-In this analysis, we used a decision tree model to predict different stress levels based on various work settings. A decision tree is a supervised learning algorithm commonly used for classification and regression tasks. It operates by splitting data into branches according to feature values, creating a tree-like structure where each node represents a decision rule, and each branch leads to a specific outcome. Starting from the root node, the model divides the data at each level based on the feature that best separates it, using metrics like Gini impurity or information gain. Decision trees are highly interpretable and visually intuitive, making them valuable for understanding decision-making processes in areas such as customer segmentation, medical diagnosis, and loan approval predictions.
+In this analysis, we employed a decision tree model to predict different stress levels based on various work-related features. A decision tree is a supervised learning algorithm commonly used for classification and regression tasks. It operates by splitting data into branches according to feature values, creating a tree-like structure where each node represents a decision rule, and each branch leads to a specific outcome. Starting from the root node the model evaluates each feature to determine the optimal splits, using metrics like Gini impurity or information gain to guide these decisions. Decision trees are highly interpretable and visually intuitive, making them valuable tools for understanding complex decision-making processes in fields such as customer segmentation, medical diagnosis, and employee well-being.
 
 
 <div align="center">
-    <img src="ENTER PHOTO HERE" alt="" width="500"/>
+    <img src="https://github.com/thecolombian/Project-4/blob/tai/IMAGES/decision_tree_classification_report.png" alt="decision_tree_classification_report" width="700"/>
 </div>
 
-The decision tree model provided valuable insights into factors influencing stress levels in various work settings, achieving a high accuracy of 94% with strong performance across all stress categories. Age, Years of Experience, and Number of Virtual Meetings emerged as the top predictors, indicating that both individual characteristics and virtual interactions strongly impact workplace stress. Additionally, Job Role and Region showed that occupational and geographic contexts matter. Factors like Company Support for Remote Work, Work-Life Balance Rating, physical activity, and mental health conditions also contributed to the model, highlighting the importance of supportive work environments and a balanced work-life dynamic. These findings suggest that tailored support and policies promoting work-life balance could effectively reduce workplace stress and improve employee well-being.
+The decision tree model provided meaningful insights into factors influencing stress levels, achieving a high overall accuracy of 94%. The classification report shows consistently high precision, recall, and F1-scores across all stress categories, underscoring the model’s reliability in predicting stress outcomes. 
 
+
+<div align="center">
+    <img src="https://github.com/thecolombian/Project-4/blob/tai/IMAGES/feature_importance_decision_tree_graph.png" alt="decision_tree_feature_importance" width="700"/>
+</div>
+
+To gain further insights on what variables have the highest importance, the feature importance graph further illustrates the significance of individual features in predicting stress levels. The top predictors—Age, Years of Experience, and Number of Virtual Meetings—reflect the impact of demographic and interaction-related factors. Other influential variables, such as Company Support for Remote Work and Work-Life Balance Rating, underscore the importance of supportive environments and balanced work-life dynamics in managing stress. Together, these findings indicate that a mix of personal, occupational, and organizational factors contribute to stress outcomes, suggesting that tailored support and policies promoting work-life balance could effectively enhance employee well-being.
+
+In summary, the decision tree model demonstrated robust performance and interpretability, offering valuable insights into how various factors affect stress levels. The feature importance graph identified Age, Years of Experience, and Number of Virtual Meetings as the strongest predictors, highlighting the significance of both demographic characteristics and virtual meeting in shaping workplace stress. Additionally, Job Role and Region contributed to the model’s accuracy, demonstrating that occupational and geographic factors also play a role in influencing stress. These findings support the model's utility in identifying key indicators of workplace stress with a high level of predictive performance.
 
 [Back to Top](#top)
 
 ### Random Forest Model
 
-In this analysis, we used a random forest model to predict different stress levels based on various work-related factors. A random forest is a supervised learning algorithm that builds multiple decision trees and combines their predictions to improve accuracy and reduce overfitting. Each tree in the forest makes an independent prediction, and the final output is determined by aggregating these predictions, often through a majority vote for classification tasks. This approach increases the model's robustness and accuracy by minimizing the impact of any single decision tree’s errors. Random forests are especially useful for handling complex data with many features and interactions, making them a powerful tool for understanding which factors, such as age, work-life balance, and company support, are most influential in predicting stress levels.
+In this analysis, we used a random forest model to predict different stress levels based on various work-related factors. A random forest is a supervised learning algorithm that builds multiple decision trees and combines their predictions to improve accuracy and reduce overfitting. Each tree in the forest makes an independent prediction, and the final output is determined by aggregating these predictions, often through a majority vote in classification tasks. This approach increases the model's robustness and accuracy by minimizing the impact of any single decision tree’s errors. Random forests are especially useful for handling complex data with many features and interactions, making them a powerful tool for understanding which factors, such as age, work-life balance, and company support, are most influential in predicting stress levels.
+
 
 <div align="center">
-    <img src="ENTER PHOTO HERE" alt="" width="500"/>
+    <img src="https://github.com/thecolombian/Project-4/blob/tai/IMAGES/Random_Forest_classification_report.png" alt="Random_Forest_classification_report" width="700"/>
 </div>
 
-The analysis of stress predictors using both the random forest and decision tree models provided valuable insights, with some noteworthy comparisons between the two. The random forest model achieved a slightly higher accuracy of 97.6% compared to the decision tree model’s 94%, indicating that the ensemble method of combining multiple decision trees improved predictive accuracy and reduced overfitting. Both models identified Age, Years of Experience, and Number of Virtual Meetings as the top factors influencing stress levels, reinforcing these variables as critical indicators across different modeling approaches.
+The random forest model achieved an impressive accuracy of 97.6%, outperforming the decision tree model's accuracy of 94%. The classification report demonstrates consistently high precision, recall, and F1-scores across all stress categories, which underscores the model's effectiveness in predicting stress levels accurately. This high accuracy highlights the advantage of using an ensemble approach, as it combines multiple decision trees to improve predictive performance and reduce overfitting.
 
-Both models emphasize the importance of individual demographics, virtual meeting load, and organizational support in influencing stress. Still, the random forest’s robustness in handling complex interactions among variables provides a more comprehensive understanding, while the decision tree model offers a straightforward view of primary predictors. Together, these models offer a balanced perspective, with the random forest model providing depth and the decision tree model providing clarity in identifying stress-influencing factors.
+<div align="center">
+    <img src="https://github.com/thecolombian/Project-4/blob/tai/IMAGES/random_forestfeature_importance_graph.png" alt="random_forestfeature_importance_graph" width="700"/>
+</div>
+
+The feature importance graph reveals that Age, Years of Experience, and Number of Virtual Meetings are the most significant predictors of stress, aligning with the decision tree model's findings. This consistency reinforces the critical role of demographic characteristics and virtual interactions in shaping workplace stress. Additional variables, such as Company Support for Remote Work and Work-Life Balance Rating, also emerged as influential factors, underscoring the value of supportive work environments and balanced schedules in mitigating stress.
+
+Together, the random forest and decision tree models emphasize the importance of individual demographics, virtual meeting frequency, and organizational support in predicting stress. However, the random forest model’s robustness in handling complex interactions provides a more comprehensive understanding, while the decision tree model offers a clear view of primary predictors. These models collectively offer a balanced perspective, with the random forest model providing depth and the decision tree model offering clarity in identifying key stress-influencing factors.
+
 
 [Back to Top](#top)
 
@@ -235,11 +250,51 @@ To achieve this, we leveraged partial dependence plots (PDPs) to gain a deeper u
 PDPs are particularly valuable for interpreting complex models, like random forests, where it can be challenging to discern how each feature contributes to the prediction. By showing the average effect of a single feature on the outcome, partial dependence plots make it easier to pinpoint which factors tend to increase or decrease stress and to what degree. This insight supports targeted strategies to reduce stress by focusing on the most impactful aspects of work conditions.
 
 <div align="center">
-    <img src="ENTER PHOTO HERE" alt="" width="500"/>
+    <h3>Partial Dependence Plots For Low Stress Level</h3>
+</div>
+
+<div align="center">
+    <img src="https://github.com/thecolombian/Project-4/blob/tai/IMAGES/partial_dependence_stress_low_level.png" alt="partial_dependence_stress_low_level" width="800"/>
+</div>
+
+
+The partial dependence plot for low stress levels highlights how certain factors influence employees' likelihood of experiencing reduced stress. Age shows a gradual increase, especially after 50, suggesting older employees may report lower stress. Years of Experience peaks around 10–15 years, indicating employees in this range are more likely to experience low stress. Additionally, fewer Virtual Meetings correlate with lower stress, as shown by a sharp drop in partial dependence at lower values. These findings suggest that age, experience, and virtual meeting frequency play significant roles in predicting low stress levels.
+
+
+<div align="center">
+    <h3>Partial Dependence Plots For Moderate Stress Level</h3>
+</div>
+
+<div align="center">
+    <img src="https://github.com/thecolombian/Project-4/blob/tai/IMAGES/partial_dependence_stress_medium_level.png" alt="partial_dependence_stress_medium_level" width="800"/>
+</div>
+
+The partial dependence plot for medium stress levels reveals key trends in how certain factors impact the likelihood of experiencing moderate stress. Age maintains a relatively stable partial dependence up to around age 50, after which it sharply decreases, suggesting younger employees are more likely to experience moderate stress. Years of Experience shows some fluctuations, with a slight dip in moderate stress likelihood after 15 years, indicating that employees with more experience might have lower medium stress levels. Number of Virtual Meetings demonstrates an upward trend, suggesting that as the number of virtual meetings increases, so does the likelihood of experiencing moderate stress. These findings emphasize the influence of age, experience, and meeting frequency on medium stress levels.
+
+
+<div align="center">
+    <h3>Partial Dependence Plots For High Stress Level</h3>
+</div>
+
+<div align="center">
+    <img src="https://github.com/thecolombian/Project-4/blob/tai/IMAGES/partial_dependence_stress_high_level.png" alt="partial_dependence_stress_high_level" width="800"/>
 </div>
 
 
 The partial dependence plots for high stress level predictions reveal interesting insights into how specific features impact stress. Age shows a gradual increase in partial dependence as it approaches the mid-50s, suggesting that older employees may experience slightly higher stress levels. Years of Experience also exhibits an upward trend, indicating that individuals with more experience tend to have higher stress, possibly due to increased responsibilities or expectations. The Number of Virtual Meetings feature shows fluctuating partial dependence, with moderate levels of virtual meetings correlating with higher stress, while lower and higher extremes tend to show a decrease. These findings suggest that age, experience, and virtual meeting frequency all play nuanced roles in influencing stress, with mid-levels of experience and moderate virtual meeting load potentially contributing most to elevated stress levels. Understanding these patterns can inform targeted interventions to support employees at different stages in their careers and manage virtual work demands.
+
+<div align="center">
+    <h3>Partial Dependence Plots For All Stress Levels </h3>
+</div>
+
+<div align="center">
+    <img src="https://github.com/thecolombian/Project-4/blob/main/IMAGES/partial_dependence_plots_with_labels.png" alt="partial_dependence_plots_with_labels" width="800"/>
+</div>
+
+> [!TIP]
+> The Partial Dependence Plots above are organized by stress levels, progressing from low to high. The first row represents the lowest stress level, the middle row indicates moderate stress, and the bottom row displays the highest stress level.
+
+Overall, the PDPs highlight that age and years of experience are influential across all stress levels, with the number of virtual meetings being particularly impactful for moderate and high stress levels. These insights can guide targeted strategies to address stress based on an employee’s age, experience, and virtual meeting load, with the PDP for low stress levels showing the most significant and actionable results for promoting employee well-being.
 
 [Back to Top](#top)
 
@@ -273,4 +328,7 @@ The partial dependence plots for high stress level predictions reveal interestin
 
 
 ## Recommendation
+
+
+
 
