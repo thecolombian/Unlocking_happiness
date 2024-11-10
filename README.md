@@ -307,11 +307,25 @@ Overall, the PDPs highlight that age and years of experience are influential acr
 [Back to Top](#top)
 
 ### Social Isolation
+
 <div align="center">
     <img src="ENTER PHOTO HERE" alt="" width="500"/>
 </div>
 
+[ADD SUMMARY OF FINDINGS]
+
+
+
+### 2nd Graph
+
+<div align="center">
+    <img src="ENTER PHOTO HERE" alt="" width="500"/>
+</div>
+
+[ADD SUMMARY OF FINDINGS]
+
 [Back to Top](#top)
+
 
 
 ### Mental Health Ratings
