@@ -27,30 +27,32 @@
     <summary>Click to expand</summary>
   
   
-  - [Project Description](#project-description)
-  - [Objective](#objective)
-  - [Resources](#resources)
-  - [Project Outline](#project-outline)
-  - [Machine Learning Models](#machine-learning-models)
-      - [Unsupervised Learning](#unsupervised-learning)
-      - [Supervised Learning](#supervised-learning)
-        - [Linear Regression Model](#linear-regression-model)
+- [Project Description](#project-description)
+- [Objective](#objective)
+- [Resources](#resources)
+- [Project Outline](#project-outline)
+- [Where Are All The Happy People At?](#where-are-all-the-happy-people-at)
+- [Looking At The Bigger Picture](#looking-at-the-bigger-picture)
+- [Machine Learning Models](#machine-learning-models)
+    - [Unsupervised Learning](#unsupervised-learning)
+         - [Clustering and PCA Models](#clustering-and-pca-models)  
+    - [Supervised Learning](#supervised-learning)
         - [Decision Tree Model](#decision-tree-model)
         - [Random Forest Model](#random-forest-model)
-    - [Satisfaction with Remote Work](#)
+        - [Partial Dependence Plots](#partial-dependence-plots)          
 - [Tableau](#tableau)
     - [Social Isolation](#social-isolation)
-    - [](#)
-    - [](#)
-    - [](#)
-  - [Summary](#summary)
-  - [Recommendation](#recommendation)
+    - [Mental Health Ratings](#mental-health-ratings)
+    - [Satisfaction with Remote Work](#satisfaction-with-remote-work)
+- [Summary](#summary)
+- [Recommendation](#recommendation)
+
   
   
   
   </details>
   
-
+---
 
 ## Project Description
 
@@ -64,37 +66,39 @@ By generating actionable insights, this project aims to equip organizations with
 
 [Back to Top](#top)
 
+---
+
 ## Objective
 
 This project aims to address the question, "How do working conditions impact employee well-being and life satisfaction in countries with higher happiness ratings?" To answer this, the analysis will delve into related sub-questions to provide a comprehensive understanding of the factors influencing employee satisfaction.
 
-1. [Sleep quality analysis question goes here]
+1. Does work location (remote, hybrid, on-site), serve as a positive driving force towards increasing people’s well being and life satisfaction?  
+
+2. Can machine learning help us understand which variables have the highest impact to a greater quality of life?
 
 
-2. Which factors are the strongest predictors of stress level, and how do their individual contributions vary in determining high, medium, or low stress among individuals?
-
-3. [Isolation analysis question goes here]
-
-4. [Mental Health question goes here/Jenny's question]
-
-5. [Jorge's question goes here]
-
-
-
-
+By exploring these questions, we aim to deepen our understanding of the factors that influence individual happiness and uncover new strategies to enhance overall quality of life.
 
 [Back to Top](#top)
 
+---
 
 ## Resources
 
 The following dataset was used for this analysis:
 
-  - [Remote Work and Mental Health](https://www.kaggle.com/datasets/waqi786/remote-work-and-mental-health) 
+### Remote Work & Mental Health
+
+The [Remote Work and Mental Health](https://www.kaggle.com/datasets/waqi786/remote-work-and-mental-health)  dataset on Kaggle offers insights into how remote work influences mental well-being. It includes data on stress levels, work-life balance, and productivity among remote workers.
+
 
 > [!WARNING]
 > Please note that the dataset used in this analysis may contain synthetic data. Synthetic data is artificially generated, often designed to resemble real-world data patterns without originating from actual individuals or events. While synthetic datasets can provide valuable insights and maintain privacy, they may not fully capture the complexities and nuances found in authentic data. Analyses and insights derived from synthetic data should be interpreted with caution, as certain trends, correlations, or relationships may not hold in real-world applications. When applying these findings to real-world scenarios, further validation using authentic data is recommended to ensure accuracy and reliability. We advise stakeholders to consider this limitation when drawing conclusions or making data-driven decisions based on this analysis.
 
+### Our World In Data
+The [Happiness and Life Satisfaction](https://ourworldindata.org/happiness-and-life-satisfaction) Data provides a comprehensive analysis of global well-being, focusing on self-reported measures of happiness and life satisfaction. It explores variations across countries and over time, examining factors such as income, health, and social support that influence subjective well-being.
+
+---
 
 [Back to Top](#top)
 
@@ -116,6 +120,16 @@ The following dataset was used for this analysis:
 [Back to Top](#top)
 
 
+---
+
+## Where Are All The Happy People At?
+
+
+
+## Looking At The Bigger Picture
+Our curiosity was sparked by identifying the top-ranking countries in terms of happiness, leading us to explore the potential factors contributing to higher levels of well-being in these nations. To investigate, we developed a Tableau dashboard focused on four key factors that may impact happiness in various work settings: sleep quality, stress levels, feelings of isolation, and mental health ratings. Through analyzing these metrics, we aim to gain data-driven insights into how work environments shape overall well-being, providing a comprehensive overview before conducting a deeper analysis of these specific factors.
+
+
 ## Machine Learning Models
 
 Machine learning models are computer programs created to recognize patterns in data and make predictions. These models are developed using machine learning algorithms, trained on data that may be labeled, unlabeled, or a mix of both. For this project, two primary types of machine learning models are used: Supervised and Unsupervised Learning. Below is an example illustrating how a machine learning model works.
@@ -126,15 +140,19 @@ Machine learning models are computer programs created to recognize patterns in d
 
 [Back to Top](#top)
 
----
 ## Unsupervised Learning
 
 <div align="center">
     <img src="ENTER PHOTO HERE" alt="" width="500"/>
 </div>
 
-[Back to Top](#top)
+### Clustering and PCA Models
 
+<div align="center">
+    <img src="ENTER PHOTO HERE" alt="" width="500"/>
+</div>
+
+[Back to Top](#top)
 
 ## Supervised Learning
 
@@ -145,17 +163,6 @@ Supervised learning is a type of machine learning where the model learns from la
 </div>
 
 
-[Back to Top](#top)
-
-### Linear Regression Model
-
-
-
-<div align="center">
-    <img src="ENTER PHOTO HERE" alt="" width="500"/>
-</div>
-
-[Back to Top](#top)
 
 ### Decision Tree Model
 
@@ -165,9 +172,18 @@ Supervised learning is a type of machine learning where the model learns from la
     <img src="ENTER PHOTO HERE" alt="" width="500"/>
 </div>
 
-[Back to Top](#top)
+
 
 ### Random Forest Model
+
+
+<div align="center">
+    <img src="ENTER PHOTO HERE" alt="" width="500"/>
+</div>
+
+
+
+### Partial Dependence Plots
 
 
 <div align="center">
@@ -177,14 +193,54 @@ Supervised learning is a type of machine learning where the model learns from la
 [Back to Top](#top)
 
 
+## Tableau
+<div align="center">
+    <img src="ENTER PHOTO HERE" alt="" width="500"/>
+</div>
+
+[Back to Top](#top)
+
+### Social Isolation
+<div align="center">
+    <img src="ENTER PHOTO HERE" alt="" width="500"/>
+</div>
+
+[Back to Top](#top)
 
 
+### Mental Health Ratings
+<div align="center">
+    <img src="ENTER PHOTO HERE" alt="" width="500"/>
+</div>
+
+[Back to Top](#top)
+
+### Satisfaction with Remote Work
 
 
 ## Summary
 
 
-## Reccomendation
+## Recommendation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
