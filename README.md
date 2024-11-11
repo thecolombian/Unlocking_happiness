@@ -303,10 +303,13 @@ Overall, the PDPs highlight that age and years of experience are influential acr
 <div align="center">
     <img src="ENTER PHOTO HERE" alt="" width="500"/>
 </div>
-Mental Health and Remote Work Satisfaction: Satisfaction levels are similar between individuals with and without mental health conditions. Notably, those experiencing burnout report higher satisfaction with remote work, possibly due to the flexibility and reduced commuting.
-Productivity and Work Environment: Remote and hybrid work setups are associated with increased productivity, whereas onsite work is linked to lower productivity. This trend holds true for individuals with mental health conditions, suggesting that remote work positively impacts productivity regardless of mental health status.
-Regional Variations in Satisfaction: Satisfaction with remote work varies by region. In Africa, Asia, Europe, Oceania, and South America, dissatisfaction surpasses satisfaction, while in North America, satisfaction and dissatisfaction are nearly equal, with a slight lean toward dissatisfaction. Regional challenges, like aligning with U.S. time zones, may contribute to lower satisfaction.  This trend holds true for individuals with mental health conditions.
-Sleep Quality Among Remote Workers: Remote workers report a higher incidence of poor sleep quality, potentially due to irregular hours required to match employers’ time zones. Onsite workers generally report better sleep. Sleep quality appears consistent between those with and without mental health conditions.  This trend holds true for individuals with mental health conditions.
+- **Mental Health and Remote Work Satisfaction:** Satisfaction levels are similar between individuals with and without mental health conditions. Notably, those experiencing burnout report higher satisfaction with remote work, possibly due to the flexibility and reduced commuting.
+
+- **Productivity and Work Environment:** Remote and hybrid work setups are associated with increased productivity, whereas onsite work is linked to lower productivity. This trend holds true for individuals with mental health conditions, suggesting that remote work positively impacts productivity regardless of mental health status.
+
+- **Regional Variations in Satisfaction:** Satisfaction with remote work varies by region. In Africa, Asia, Europe, Oceania, and South America, dissatisfaction surpasses satisfaction, while in North America, satisfaction and dissatisfaction are nearly equal, with a slight lean toward dissatisfaction. Regional challenges, like aligning with U.S. time zones, may contribute to lower satisfaction.
+
+- **Sleep Quality Among Remote Workers:** Remote workers report a higher incidence of poor sleep quality, potentially due to irregular hours required to match employers’ time zones. Onsite workers generally report better sleep. Sleep quality appears consistent between those with and without mental health conditions.
 
 [Back to Top](#top)
 
