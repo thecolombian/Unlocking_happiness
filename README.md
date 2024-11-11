@@ -300,6 +300,9 @@ Overall, the PDPs highlight that age and years of experience are influential acr
 
 
 ## Tableau
+
+### Mental Health and Satisfaction with Remote Work
+
 <div align="center">
     <img src="https://github.com/thecolombian/Project-4/blob/main/IMAGES/jj-image.png" alt="" width="800"/>
 </div>
@@ -338,21 +341,15 @@ Overall, the PDPs highlight that age and years of experience are influential acr
 
 
 
-### Mental Health Ratings
-<div align="center">
-    <img src="ENTER PHOTO HERE" alt="" width="500"/>
-</div>
-
-[Back to Top](#top)
-
-### Satisfaction with Remote Work
-
-
 ## Summary
+- **Satisfaction with Remote Work:** Satisfaction is similar for individuals with and without mental health conditions, though those experiencing burnout report higher satisfaction, likely due to flexibility and reduced commuting.
+- **Productivity in Remote Settings:** Remote and hybrid work are linked to higher productivity for all individuals, including those with mental health conditions, while onsite work shows lower productivity.
+- **Regional Satisfaction Differences:** Satisfaction varies by region, with greater dissatisfaction in Africa, Asia, Europe, Oceania, and South America, possibly due to time zone challenges. North America shows near-equal satisfaction and dissatisfaction.
+- **Sleep Quality:** Remote workers report poorer sleep quality, possibly due to irregular hours for time zone alignment, while onsite workers report better sleep. This trend is consistent across mental health statuses.
 
-
-## Recommendation
-
+## Recommendations
+- **Address Regional Time Zone Challenges:** Provide more resources and training for asynchronous communication to improve satisfaction in regions with significant time zone differences from employers.
+- **Collect Additional Demographic Data:** Include variables such as working hours, housing arrangements, and household responsibilities to better understand influences on satisfaction and productivity among different groups.
 
 
 
