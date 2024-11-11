@@ -304,7 +304,7 @@ Overall, the PDPs highlight that age and years of experience are influential acr
     <img src="https://github.com/thecolombian/Project-4/blob/main/IMAGES/jj-image.png" alt="" width="800"/>
 </div>
 
-- **Dashboard Access:** To access the interactive dashboard, visit the [website](https://www.openai.com](https://public.tableau.com/views/health-remote-v3/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
+- **Dashboard Access:** You can explore the **Tableau dashboard** [here](https://public.tableau.com/views/health-remote-v3/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
 - 
 - **Mental Health and Remote Work Satisfaction:** Satisfaction levels are similar between individuals with and without mental health conditions. Notably, those experiencing burnout report higher satisfaction with remote work, possibly due to the flexibility and reduced commuting.
