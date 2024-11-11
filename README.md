@@ -309,20 +309,26 @@ Overall, the PDPs highlight that age and years of experience are influential acr
 ### Social Isolation
 
 <div align="center">
-    <img src="ENTER PHOTO HERE" alt="" width="500"/>
+    <h3> Social Isolation in Relation to Work Hours </h3>
 </div>
 
-[ADD SUMMARY OF FINDINGS]
-
-
-
-### 2nd Graph
 
 <div align="center">
-    <img src="ENTER PHOTO HERE" alt="" width="500"/>
+    <img src="https://github.com/thecolombian/Project-4/blob/EdGonz/social_iso/Soci_iso_images/social_isolation_by_work_hours.png" alt="social_isolation_by_work_hours" width="500"/>
 </div>
 
-[ADD SUMMARY OF FINDINGS]
+The dataset used in this project utilized a variable called "Social_Isolation_Rating" which measured subjects reported self rating on how socially isolated they felt. The score for these ratings ranged from 1-5, with 1 acting as not feeling socially isolated, and 5 acting as feeling severly socially isolated. Most variables within the dataset were found to not have any clear connection to this social isolation rating, however of the two variables that displayed a distinct connection to each other was the variable describing the hours worked per week by each reporter. Originally, the variable was continuous, and ranged from low 20s to near 60 hours each week. In order to more clearly illustrate the connection these variables had, a new variable was created called Work_Hours_Category which grouped reporters based on their work week hours: part-time (<35 hours), full-time (35-45 hours), overtime (45-55) hours, and overworked (55+ hours). These categories were created based on a general idea of the amount of hours required to be employed full-time, with the overworked category being based on the general consensus of when a person will begin to experience physical harm from continuing to work. The grouped bar chart above depicts these work hour categories against the social isolation rating that the reporters gave. The chart shows part timers were more likely to report a high social isolation rating, but, as work hours increased into full-time and then overtime hours; those who fell into these work hour categories were more likely to report lower levels of social isolation as they increased their work hours. However, the people who were being overworked all had similar reporting rates of social isolation. This would mean that as people begin to become overworked, the previous trend falls apart, and the group reports similar rates of social isolation for each rating. A possible explanation for this phenomenon may be that due to the cultural norm of people typically being full-time workers, the less someone works the more likely they are to feel isolated due to the fact that their extra free time is spent alone as others are at work. This would then mean that working more naturally causes people to spend more time amongst other people, i.e., thier fellow co-workers. However, overwork overrides the socializing as people are more likely attempting to deal with their physical exhaustion in their own way.
+
+
+<div align="center">
+    <h3> Social Isolation in relation to Work Satisfaction </h3>
+</div>
+
+<div align="center">
+    <img src="https://github.com/thecolombian/Project-4/blob/EdGonz/social_iso/Soci_iso_images/social_isolation_by_satisfaction_w_remote_work.png" alt="social_isolation_by_satisfaction_w_remote_work" width="500"/>
+</div>
+
+The second variable to have a connection to the social isolation ratings was Satisfaction_with_Remote_Work. These two variables appeared to have a somewhat negative correlation: those with low levels of social isolation reported to be outright unsatisfied with remote work, whereas people with high levels of social isolation were satisfied with remote work. On the surface level, this seems to be counterintuitive as people who are satisfied with remote work, should not be experiencing many stressors due to their appreciation of the type of work environment they have. The fact that the opposite occurs implies that it may be a result of why someone may prefer remote work, and what type of connection they have with the concept of community. It may be that those with low social isolation levels may be very social people, or at the very least have a strong communal network, and therefore may also desire to have a work environment that reflects this type of socialization. On the other end of the spectrum, the people who report high levels of social isolation may be dealing with introverted characteristics and as a result appreciate work that keeps them removed from close proximity with others. However, a more prudent suggestion may be that these individuals may be satisfied with remote work as it may fit in better with their day to day lives, but still feel isolated due to the nature of being alone during the remote work hours. 
 
 [Back to Top](#top)
 
