@@ -303,6 +303,7 @@ Overall, the PDPs highlight that age and years of experience are influential acr
 <div align="center">
     <img src="ENTER PHOTO HERE" alt="" width="500"/>
 </div>
+
 - **Mental Health and Remote Work Satisfaction:** Satisfaction levels are similar between individuals with and without mental health conditions. Notably, those experiencing burnout report higher satisfaction with remote work, possibly due to the flexibility and reduced commuting.
 
 - **Productivity and Work Environment:** Remote and hybrid work setups are associated with increased productivity, whereas onsite work is linked to lower productivity. This trend holds true for individuals with mental health conditions, suggesting that remote work positively impacts productivity regardless of mental health status.
