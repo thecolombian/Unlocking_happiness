@@ -44,11 +44,10 @@
         - [Random Forest Model](#random-forest-model)
         - [Partial Dependence Plots](#partial-dependence-plots)          
 - [Tableau](#tableau)
+    - [Mental Health and Satisfaction with Remote Work](#mental-health-and-satisfaction-with-remote-work)
     - [Social Isolation](#social-isolation)
-    - [Mental Health Ratings](#mental-health-ratings)
-    - [Satisfaction with Remote Work](#satisfaction-with-remote-work)
 - [Summary](#summary)
-- [Recommendation](#recommendation)
+- [Recommendations](#recommendations)
 
   
   
@@ -175,17 +174,14 @@ Unsupervised learning is a type of machine learning where the model is trained o
     <img src="https://github.com/thecolombian/Project-4/blob/main/IMAGES/Unsupervised_learning.png" alt="unsupervised_learning" width="700"/>
 </div>
 
-### Clustering and PCA Models
-
-<div align="center">
-    <img src="ENTER PHOTO HERE" alt="" width="500"/>
-</div>
-
-[Back to Top](#top)
+## Clustering and PCA Models
 
 This project contains two clustering models aimed at understanding the factors that affect employee sleep quality in remote work settings. We used two different approaches to explore the interactions between employee work-life factors and sleep quality. Each model differs in the features analyzed, clustering results, and overall findings.
 
-## Model 1: Clustering Without Sleep Quality Feature
+<div align="center">
+    <h2>Model 1: Clustering Without Sleep Quality Feature</h2>
+</div>
+
 
 ### Purpose
 In this model, we dropped the *Sleep Quality* feature to examine how other factors related to work-life balance, satisfaction, stress, social isolation, and company support interact with each other. This approach allowed us to explore if distinct patterns emerged within these factors independent of direct sleep quality information.
@@ -211,7 +207,9 @@ In this model, we dropped the *Sleep Quality* feature to examine how other facto
     <img src="https://github.com/thecolombian/Project-4/blob/main/mariem_project4/Images/sleep_clusters.png" alt="decision_tree_classification_report" width="700"/>
 </div>
 
-## Model 2: Clustering Including Sleep Quality Feature
+<div align="center">
+    <h2>Model 2: Clustering Including Sleep Quality Feature</h2>
+</div>
 
 ### Purpose
 This model includes the *Sleep Quality* feature to directly investigate how it clusters alongside work-life factors. By adding sleep quality into the model, we aimed to see if its inclusion alters cluster formation and reveals new insights into the relationships between work factors and sleep.
@@ -234,6 +232,8 @@ This model includes the *Sleep Quality* feature to directly investigate how it c
 <div align="center">
     <img src="https://github.com/thecolombian/Project-4/blob/main/Presentation%20Images/happiness_clusters%20copy.png" alt="decision_tree_classification_report" width="700"/>
 </div>
+
+[Back to Top](#top)
 
 ## Supervised Learning
 
@@ -400,14 +400,26 @@ The second variable to have a connection to the social isolation ratings was Sat
 
 
 ## Summary
+
 - **Satisfaction with Remote Work:** Satisfaction is similar for individuals with and without mental health conditions, though those experiencing burnout report higher satisfaction, likely due to flexibility and reduced commuting.
 - **Productivity in Remote Settings:** Remote and hybrid work are linked to higher productivity for all individuals, including those with mental health conditions, while onsite work shows lower productivity.
 - **Regional Satisfaction Differences:** Satisfaction varies by region, with greater dissatisfaction in Africa, Asia, Europe, Oceania, and South America, possibly due to time zone challenges. North America shows near-equal satisfaction and dissatisfaction.
 - **Sleep Quality:** Remote workers report poorer sleep quality, possibly due to irregular hours for time zone alignment, while onsite workers report better sleep. This trend is consistent across mental health statuses.
 
 ## Recommendations
-- **Address Regional Time Zone Challenges:** Provide more resources and training for asynchronous communication to improve satisfaction in regions with significant time zone differences from employers.
-- **Collect Additional Demographic Data:** Include variables such as working hours, housing arrangements, and household responsibilities to better understand influences on satisfaction and productivity among different groups.
+
+**Address Regional Time Zone Challenges:**
+- Provide more resources and training for asynchronous communication to improve satisfaction in regions with significant time zone differences from employers.
+
+**Collect Additional Demographic Data:**
+- Include variables such as working hours, housing arrangements, and household responsibilities to better understand influences on satisfaction and productivity among different groups.
+
+**Explore Interactions Between Physical Activity, Sleep Quality, and Stress:** 
+- Conduct a deeper analysis into how lifestyle factors like physical activity and sleep quality interact with stress levels. 
+
+**Acquire Real-World Data:**
+- Explore methods to gather real-world data instead of relying on simulated data.
+
 
 
 
