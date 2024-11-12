@@ -304,7 +304,7 @@ Overall, the PDPs highlight that age and years of experience are influential acr
 ### Mental Health and Satisfaction with Remote Work
 
 <div align="center">
-    <img src="https://github.com/thecolombian/Project-4/blob/main/IMAGES/jj-image.png" alt="" width="800"/>
+    <img src="https://github.com/thecolombian/Project-4/blob/main/IMAGES/jj-image-1.png" alt="" width="800"/>
 </div>
 
 - **Dashboard Access:** You can explore the **Tableau dashboard** [here](https://public.tableau.com/views/health-remote-v3/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
