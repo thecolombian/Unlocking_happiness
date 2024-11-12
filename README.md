@@ -183,6 +183,56 @@ Unsupervised learning is a type of machine learning where the model is trained o
 
 [Back to Top](#top)
 
+This project contains two clustering models aimed at understanding the factors that affect employee sleep quality in remote work settings. We used two different approaches to explore the interactions between employee work-life factors and sleep quality. Each model differs in the features analyzed, clustering results, and overall findings.
+
+## Model 1: Clustering Without Sleep Quality Feature
+
+### Purpose
+In this model, we dropped the *Sleep Quality* feature to examine how other factors related to work-life balance, satisfaction, stress, social isolation, and company support interact with each other. This approach allowed us to explore if distinct patterns emerged within these factors independent of direct sleep quality information.
+
+### Steps
+1. **Feature Selection and Preprocessing**:
+   - Removed columns related to *Sleep Quality*, *Employee ID*, and others irrelevant to clustering.
+   - Applied one-hot encoding on categorical features.
+   - Scaled the features using `StandardScaler` for uniformity.
+
+2. **Dimensionality Reduction (PCA)**:
+   - Reduced the data to 2 principal components for easier visualization.
+   
+3. **Clustering (KMeans)**:
+   - Used the elbow method and silhouette scores to determine an optimal cluster count.
+   - **Optimal Clusters**: 3 clusters, chosen based on the elbow curve and silhouette score evaluation.
+
+
+### Findings
+- **Cluster Characteristics**: We identified three clusters, with two clusters showing some overlap while the third was more distinct, suggesting unique factor interactions among that group.
+- **Implications**: These clusters might represent different employee groups with varied work-life and mental health experiences, which could indirectly influence sleep quality.
+<div align="center">
+    <img src="https://github.com/thecolombian/Project-4/blob/main/mariem_project4/Images/sleep_clusters.png" alt="decision_tree_classification_report" width="700"/>
+</div>
+
+## Model 2: Clustering Including Sleep Quality Feature
+
+### Purpose
+This model includes the *Sleep Quality* feature to directly investigate how it clusters alongside work-life factors. By adding sleep quality into the model, we aimed to see if its inclusion alters cluster formation and reveals new insights into the relationships between work factors and sleep.
+
+### Steps
+1. **Feature Selection and Preprocessing**:
+   - Selected features including *Sleep Quality*, work-life factors, and mental health support.
+   - Applied one-hot encoding where necessary.
+   - Scaled all features using `StandardScaler`.
+
+2. **Dimensionality Reduction (PCA)**:
+   - Reduced dimensions to 2 principal components for visualization while preserving feature variance.
+
+3. **Clustering (KMeans)**:
+   - Evaluated clusters using the elbow method and silhouette scores, selecting 5 clusters as optimal.
+
+### Findings
+- **Cluster Characteristics**: Five clusters were identified, with one group showing significantly lower sleep quality scores and higher stress levels. Other clusters displayed varying levels of work-life balance, satisfaction, and company support.
+- **Implications**: These clusters provide actionable insights for addressing specific groups' needs to improve sleep quality and work satisfaction. For instance, the cluster with low sleep quality may benefit from targeted mental health resources.
+
+
 ## Supervised Learning
 
 Supervised learning is a type of machine learning where the model is trained on a labeled dataset, meaning each data point is paired with an output label. The model learns by identifying patterns and relationships between the input data and the corresponding labels, allowing it to make predictions on new, unseen data. Supervised learning is commonly used for tasks such as classification, where data is categorized into predefined groups, and regression, where continuous outcomes are predicted. By learning from labeled examples, supervised learning algorithms can accurately predict outcomes, making them valuable for applications like spam detection, image recognition, and financial forecasting.
