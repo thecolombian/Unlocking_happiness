@@ -231,7 +231,9 @@ This model includes the *Sleep Quality* feature to directly investigate how it c
 ### Findings
 - **Cluster Characteristics**: Five clusters were identified, with one group showing significantly lower sleep quality scores and higher stress levels. Other clusters displayed varying levels of work-life balance, satisfaction, and company support.
 - **Implications**: These clusters provide actionable insights for addressing specific groups' needs to improve sleep quality and work satisfaction. For instance, the cluster with low sleep quality may benefit from targeted mental health resources.
-
+<div align="center">
+    <img src="https://github.com/thecolombian/Project-4/blob/main/Presentation%20Images/happiness_clusters%20copy.png" alt="decision_tree_classification_report" width="700"/>
+</div>
 
 ## Supervised Learning
 
