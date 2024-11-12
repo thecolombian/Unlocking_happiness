@@ -176,7 +176,7 @@ Unsupervised learning is a type of machine learning where the model is trained o
 
 ## Clustering and PCA Models
 
-This project contains two clustering models aimed at understanding the factors that affect employee sleep quality in remote work settings. We used two different approaches to explore the interactions between employee work-life factors and sleep quality. Each model differs in the features analyzed, clustering results, and overall findings.
+This project contains two clustering models aimed at understanding the factors that affect employee sleep quality in remote, hybrid and on site work settings. We used two different approaches to explore the interactions between employee work-life factors and sleep quality. Each model differs in the features analyzed, clustering results, and overall findings.
 
 <div align="center">
     <h2>Model 1: Clustering Without Sleep Quality Feature</h2>
