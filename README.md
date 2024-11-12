@@ -131,7 +131,7 @@ The [Happiness and Life Satisfaction](https://ourworldindata.org/happiness-and-l
 To begin our analysis and address the central question—How do working conditions impact employee well-being and life satisfaction in countries with higher happiness ratings?—we started by identifying the countries with the highest overall happiness scores. Using the [Happiness and Life Satisfaction](https://ourworldindata.org/happiness-and-life-satisfaction) dataset, we gained an initial understanding of global happiness distribution and pinpointed where the happiest populations reside.
 
 <div align="center">
-    <img src="ENTER PHOTO HERE" alt="" width="500"/>
+    <img src="https://github.com/thecolombian/Project-4/blob/main/IMAGES/happiness_by_country.png" alt="happiness_by_country" width="600"/>
 </div>
 
 
