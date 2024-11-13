@@ -44,11 +44,10 @@
         - [Random Forest Model](#random-forest-model)
         - [Partial Dependence Plots](#partial-dependence-plots)          
 - [Tableau](#tableau)
+    - [Mental Health and Satisfaction with Remote Work](#mental-health-and-satisfaction-with-remote-work)
     - [Social Isolation](#social-isolation)
-    - [Mental Health Ratings](#mental-health-ratings)
-    - [Satisfaction with Remote Work](#satisfaction-with-remote-work)
 - [Summary](#summary)
-- [Recommendation](#recommendation)
+- [Recommendations](#recommendations)
 
   
   
@@ -132,7 +131,7 @@ The [Happiness and Life Satisfaction](https://ourworldindata.org/happiness-and-l
 To begin our analysis and address the central question—How do working conditions impact employee well-being and life satisfaction in countries with higher happiness ratings?—we started by identifying the countries with the highest overall happiness scores. Using the [Happiness and Life Satisfaction](https://ourworldindata.org/happiness-and-life-satisfaction) dataset, we gained an initial understanding of global happiness distribution and pinpointed where the happiest populations reside.
 
 <div align="center">
-    <img src="ENTER PHOTO HERE" alt="" width="500"/>
+    <img src="https://github.com/thecolombian/Project-4/blob/main/IMAGES/happiness_by_country.png" alt="happiness_by_country" width="600"/>
 </div>
 
 
@@ -146,7 +145,7 @@ The data revealed that Iceland, Denmark, and Sweden rank as the top three countr
 Building on the initial findings, we developed a Tableau dashboard to examine four key factors that may impact happiness across different work settings: sleep quality, stress levels, feelings of isolation, and mental health ratings. By analyzing these metrics, we aim to uncover data-driven insights into how work environments shape overall well-being. This broader perspective provides a foundation for deeper exploration into how specific work conditions can enhance or detract from life satisfaction.
 
 <div align="center">
-    <img src="This is for jorge" alt="" width="500"/>
+    <img src="https://github.com/thecolombian/Project-4/blob/main/IMAGES/dashboard_overview.png" alt="dashboard_overview" width="700"/>
 </div>
 
 [This is for jorge to complete ADD A SHORT SUMMARY OF DASHBOARD HERE]
@@ -175,10 +174,63 @@ Unsupervised learning is a type of machine learning where the model is trained o
     <img src="https://github.com/thecolombian/Project-4/blob/main/IMAGES/Unsupervised_learning.png" alt="unsupervised_learning" width="700"/>
 </div>
 
-### Clustering and PCA Models
+## Clustering and PCA Models
+
+This project contains two clustering models aimed at understanding the factors that affect employee sleep quality in remote, hybrid and on site work settings. We used two different approaches to explore the interactions between employee work-life factors and sleep quality. Each model differs in the features analyzed, clustering results, and overall findings.
 
 <div align="center">
-    <img src="ENTER PHOTO HERE" alt="" width="500"/>
+    <h2>Model 1: Clustering Without Sleep Quality Feature</h2>
+</div>
+
+
+### Purpose
+In this model, we dropped the *Sleep Quality* feature to examine how other factors related to work-life balance, satisfaction, stress, social isolation, and company support interact with each other. This approach allowed us to explore if distinct patterns emerged within these factors independent of direct sleep quality information.
+
+### Steps
+1. **Feature Selection and Preprocessing**:
+   - Removed columns related to *Sleep Quality*, *Employee ID*, and others irrelevant to clustering.
+   - Applied one-hot encoding on categorical features.
+   - Scaled the features using `StandardScaler` for uniformity.
+
+2. **Dimensionality Reduction (PCA)**:
+   - Reduced the data to 2 principal components for easier visualization.
+   
+3. **Clustering (KMeans)**:
+   - Used the elbow method and silhouette scores to determine an optimal cluster count.
+   - **Optimal Clusters**: 3 clusters, chosen based on the elbow curve and silhouette score evaluation.
+
+
+### Findings
+- **Cluster Characteristics**: We identified three clusters, with two clusters showing some overlap while the third was more distinct, suggesting unique factor interactions among that group.
+- **Implications**: These clusters might represent different employee groups with varied work-life and mental health experiences, which could indirectly influence sleep quality.
+<div align="center">
+    <img src="https://github.com/thecolombian/Project-4/blob/main/mariem_project4/Images/sleep_clusters.png" alt="decision_tree_classification_report" width="700"/>
+</div>
+
+<div align="center">
+    <h2>Model 2: Clustering Including Sleep Quality Feature</h2>
+</div>
+
+### Purpose
+This model includes the *Sleep Quality* feature to directly investigate how it clusters alongside work-life factors. By adding sleep quality into the model, we aimed to see if its inclusion alters cluster formation and reveals new insights into the relationships between work factors and sleep.
+
+### Steps
+1. **Feature Selection and Preprocessing**:
+   - Selected features including *Sleep Quality*, work-life factors, and mental health support.
+   - Applied one-hot encoding where necessary.
+   - Scaled all features using `StandardScaler`.
+
+2. **Dimensionality Reduction (PCA)**:
+   - Reduced dimensions to 2 principal components for visualization while preserving feature variance.
+
+3. **Clustering (KMeans)**:
+   - Evaluated clusters using the elbow method and silhouette scores, selecting 5 clusters as optimal.
+
+### Findings
+- **Cluster Characteristics**: Five clusters were identified, with one group showing significantly lower sleep quality scores and higher stress levels. Other clusters displayed varying levels of work-life balance, satisfaction, and company support.
+- **Implications**: These clusters provide actionable insights for addressing specific groups' needs to improve sleep quality and work satisfaction. For instance, the cluster with low sleep quality may benefit from targeted mental health resources.
+<div align="center">
+    <img src="https://github.com/thecolombian/Project-4/blob/main/Presentation%20Images/happiness_clusters%20copy.png" alt="decision_tree_classification_report" width="700"/>
 </div>
 
 [Back to Top](#top)
@@ -304,7 +356,7 @@ Overall, the PDPs highlight that age and years of experience are influential acr
 ### Mental Health and Satisfaction with Remote Work
 
 <div align="center">
-    <img src="https://github.com/thecolombian/Project-4/blob/main/IMAGES/jj-image.png" alt="" width="800"/>
+    <img src="https://github.com/thecolombian/Project-4/blob/main/IMAGES/jj-image-1.png" alt="" width="800"/>
 </div>
 
 - **Dashboard Access:** You can explore the **Tableau dashboard** [here](https://public.tableau.com/views/health-remote-v3/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
@@ -322,34 +374,55 @@ Overall, the PDPs highlight that age and years of experience are influential acr
 ### Social Isolation
 
 <div align="center">
-    <img src="ENTER PHOTO HERE" alt="" width="500"/>
+    <h3> Social Isolation in Relation to Work Hours </h3>
 </div>
 
-[ADD SUMMARY OF FINDINGS]
-
-
-
-### 2nd Graph
 
 <div align="center">
-    <img src="ENTER PHOTO HERE" alt="" width="500"/>
+    <img src="https://github.com/thecolombian/Project-4/blob/main/social_iso/Soci_iso_images/social_isolation_by_work_hours.png" alt="social_isolation_by_work_hours" width="500"/>
 </div>
 
-[ADD SUMMARY OF FINDINGS]
+The dataset used in this project utilized a variable called "Social_Isolation_Rating" which measured subjects reported self rating on how socially isolated they felt. The score for these ratings ranged from 1-5, with 1 acting as not feeling socially isolated, and 5 acting as feeling severly socially isolated. Most variables within the dataset were found to not have any clear connection to this social isolation rating, however of the two variables that displayed a distinct connection to each other was the variable describing the hours worked per week by each reporter. Originally, the variable was continuous, and ranged from low 20s to near 60 hours each week. In order to more clearly illustrate the connection these variables had, a new variable was created called Work_Hours_Category which grouped reporters based on their work week hours: part-time (<35 hours), full-time (35-45 hours), overtime (45-55) hours, and overworked (55+ hours). These categories were created based on a general idea of the amount of hours required to be employed full-time, with the overworked category being based on the general consensus of when a person will begin to experience physical harm from continuing to work. The grouped bar chart above depicts these work hour categories against the social isolation rating that the reporters gave. The chart shows part timers were more likely to report a high social isolation rating, but, as work hours increased into full-time and then overtime hours; those who fell into these work hour categories were more likely to report lower levels of social isolation as they increased their work hours. However, the people who were being overworked all had similar reporting rates of social isolation. This would mean that as people begin to become overworked, the previous trend falls apart, and the group reports similar rates of social isolation for each rating. A possible explanation for this phenomenon may be that due to the cultural norm of people typically being full-time workers, the less someone works the more likely they are to feel isolated due to the fact that their extra free time is spent alone as others are at work. This would then mean that working more naturally causes people to spend more time amongst other people, i.e., thier fellow co-workers. However, overwork overrides the socializing as people are more likely attempting to deal with their physical exhaustion in their own way.
+
+
+<div align="center">
+    <h3> Social Isolation in relation to Work Satisfaction </h3>
+</div>
+
+<div align="center">
+    <img src="https://github.com/thecolombian/Project-4/blob/main/social_iso/Soci_iso_images/social_isolation_by_satisfaction_w_remote_work.png" alt="social_isolation_by_satisfaction_w_remote_work" width="500"/>
+</div>
+
+The second variable to have a connection to the social isolation ratings was Satisfaction_with_Remote_Work. These two variables appeared to have a somewhat negative correlation: those with low levels of social isolation reported to be outright unsatisfied with remote work, whereas people with high levels of social isolation were satisfied with remote work. On the surface level, this seems to be counterintuitive as people who are satisfied with remote work, should not be experiencing many stressors due to their appreciation of the type of work environment they have. The fact that the opposite occurs implies that it may be a result of why someone may prefer remote work, and what type of connection they have with the concept of community. It may be that those with low social isolation levels may be very social people, or at the very least have a strong communal network, and therefore may also desire to have a work environment that reflects this type of socialization. On the other end of the spectrum, the people who report high levels of social isolation may be dealing with introverted characteristics and as a result appreciate work that keeps them removed from close proximity with others. However, a more prudent suggestion may be that these individuals may be satisfied with remote work as it may fit in better with their day to day lives, but still feel isolated due to the nature of being alone during the remote work hours. 
 
 [Back to Top](#top)
 
 
 
 ## Summary
-- **Satisfaction with Remote Work:** Satisfaction is similar for individuals with and without mental health conditions, though those experiencing burnout report higher satisfaction, likely due to flexibility and reduced commuting.
-- **Productivity in Remote Settings:** Remote and hybrid work are linked to higher productivity for all individuals, including those with mental health conditions, while onsite work shows lower productivity.
-- **Regional Satisfaction Differences:** Satisfaction varies by region, with greater dissatisfaction in Africa, Asia, Europe, Oceania, and South America, possibly due to time zone challenges. North America shows near-equal satisfaction and dissatisfaction.
-- **Sleep Quality:** Remote workers report poorer sleep quality, possibly due to irregular hours for time zone alignment, while onsite workers report better sleep. This trend is consistent across mental health statuses.
+
+To conclude, this analysis provides a detailed exploration of the ways in which different work settings influence employee mental health, productivity, and overall well-being. Our findings reveal that hybrid work arrangements often offer a more balanced environment, with lower reported levels of stress and isolation compared to fully remote or onsite work settings. In addition, factors such as sleep quality and productivity appear to be closely tied to work location, with remote workers benefiting from flexibility yet often experiencing poorer sleep due to irregular hours needed for time zone alignment.
+
+The study also underscores the significant role that demographic factors and virtual work dynamics play in workplace stress. Our machine learning models identified age, years of experience, and the frequency of virtual meetings as key contributors to stress levels, suggesting that these factors require careful consideration in managing employee well-being. Regional variations in satisfaction with remote work, especially in relation to time zone challenges, further highlight the importance of context-specific support strategies.
+
+In summary, these insights emphasize the need for targeted approaches to enhance work-life balance and employee satisfaction. By leveraging data-driven insights from machine learning and visualization tools, organizations can create supportive work environments that foster both productivity and personal well-being in an increasingly flexible workplace.
+
+[Back to Top](#top)
 
 ## Recommendations
-- **Address Regional Time Zone Challenges:** Provide more resources and training for asynchronous communication to improve satisfaction in regions with significant time zone differences from employers.
-- **Collect Additional Demographic Data:** Include variables such as working hours, housing arrangements, and household responsibilities to better understand influences on satisfaction and productivity among different groups.
 
+**Address Regional Time Zone Challenges:**
+- Provide more resources and training for asynchronous communication to improve satisfaction in regions with significant time zone differences from employers.
+
+**Collect Additional Demographic Data:**
+- Include variables such as working hours, housing arrangements, and household responsibilities to better understand influences on satisfaction and productivity among different groups.
+
+**Explore Interactions Between Physical Activity, Sleep Quality, and Stress:** 
+- Conduct a deeper analysis into how lifestyle factors like physical activity and sleep quality interact with stress levels. 
+
+**Acquire Real-World Data:**
+- Explore methods to gather real-world data instead of relying on simulated data.
+
+[Back to Top](#top)
 
 
