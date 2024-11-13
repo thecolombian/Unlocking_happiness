@@ -145,7 +145,7 @@ The data revealed that Iceland, Denmark, and Sweden rank as the top three countr
 Building on the initial findings, we developed a Tableau dashboard to examine four key factors that may impact happiness across different work settings: sleep quality, stress levels, feelings of isolation, and mental health ratings. By analyzing these metrics, we aim to uncover data-driven insights into how work environments shape overall well-being. This broader perspective provides a foundation for deeper exploration into how specific work conditions can enhance or detract from life satisfaction.
 
 <div align="center">
-    <img src="This is for jorge" alt="" width="500"/>
+    <img src="https://github.com/thecolombian/Project-4/blob/main/IMAGES/dashboard_overview.png" alt="dashboard_overview" width="700"/>
 </div>
 
 [This is for jorge to complete ADD A SHORT SUMMARY OF DASHBOARD HERE]
