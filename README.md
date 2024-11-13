@@ -148,7 +148,24 @@ Building on the initial findings, we developed a Tableau dashboard to examine fo
     <img src="https://github.com/thecolombian/Project-4/blob/main/IMAGES/dashboard_overview.png" alt="dashboard_overview" width="700"/>
 </div>
 
-[This is for jorge to complete ADD A SHORT SUMMARY OF DASHBOARD HERE]
+This dashboard provides a concise, data-driven overview of how work settings—remote, hybrid, and onsite—correlate with employee mental health, stress levels, sleep quality, and social isolation. The findings indicate nuanced relationships between work location and well-being, suggesting that each setting offers distinct advantages and challenges. 
+
+### Overall Trends:
+Remote work is associated with higher rates of anxiety, depression, and isolation, while hybrid work shows a more balanced impact, with moderate levels of stress, anxiety, and depression. Onsite work, in contrast, is linked to a higher prevalence of burnout but lower levels of anxiety and depression.
+
+### Specific Insights:
+
+**Anxiety & Depression:** Highest among remote workers, highlighting potential mental health risks associated with social isolation in remote settings.
+
+**Burnout:** Most prevalent in onsite work, suggesting potential challenges related to commute and rigid schedules.
+
+**Stress Levels:** Hybrid work shows the highest levels of medium and high stress, indicating that balancing onsite and remote responsibilities can be demanding.
+
+**Isolation:** Remote workers report the highest isolation, underlining the need for social support systems in remote work arrangements.
+
+**Interpretations:** These patterns suggest that remote work offers flexibility but may increase isolation-related mental health issues, while hybrid work provides a balanced experience but can still be stressful. Onsite work offers social interaction but may lead to burnout.
+
+Overall, these insights reveal the complex ways in which work location affects employee well-being, underscoring the importance of tailored support strategies for each work setting. This analysis serves as a foundation as we dive deeper into these specific variables using machine learning models. 
 
 [Back to Top](#top)
 
